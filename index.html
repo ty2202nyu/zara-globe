@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zara Supply Globe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="globe" aria-label="3D globe of Zara suppliers"></div>
+
+  <aside id="panel">
+    <header>
+      <p class="eyebrow">Inditex · Zara supply chain</p>
+      <h1>Where the materials come from</h1>
+      <p class="lede">Suppliers shipping to Inditex HQ in Arteixo, Spain, with their Tradeverifyd risk scores.</p>
+    </header>
+
+    <section class="stats" id="stats"></section>
+
+    <section class="filters">
+      <label class="filter-label" for="search">Search vendors</label>
+      <input id="search" type="search" placeholder="e.g. Shahi, Noida, leather" autocomplete="off">
+
+      <div class="filter-label">Country</div>
+      <div class="chips" id="country-chips"></div>
+
+      <div class="filter-label">Material</div>
+      <div class="chips" id="material-chips"></div>
+
+      <label class="toggle">
+        <input type="checkbox" id="hide-uncertain">
+        Hide suppliers with uncertain locations
+      </label>
+    </section>
+
+    <section id="detail" hidden></section>
+
+    <section>
+      <div class="list-head">
+        <span class="filter-label">Vendors</span>
+        <select id="sort" aria-label="Sort vendors">
+          <option value="score-asc">Score: lowest first</option>
+          <option value="score-desc">Score: highest first</option>
+          <option value="name">Name</option>
+          <option value="hs">Most product lines</option>
+        </select>
+      </div>
+      <ul id="vendor-list"></ul>
+    </section>
+
+    <footer class="source">
+      <div class="legend">
+        <span>Score</span>
+        <span class="legend-bar"></span>
+        <span id="legend-range"></span>
+      </div>
+      <p>All suppliers are rated <strong>Low</strong> risk by Tradeverifyd. Colour shows where each score falls within that band. Hollow rings mark locations that are approximate.</p>
+      <p id="source-line"></p>
+    </footer>
+  </aside>
+
+  <div id="tooltip" role="tooltip" hidden></div>
+
+  <script src="https://unpkg.com/globe.gl@2.27.2/dist/globe.gl.min.js"></script>
+  <script src="data/suppliers.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
