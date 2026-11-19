@@ -111,7 +111,97 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 12,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Sonu Exim Pvt Ltd",
+    "aliases": [
+     "Sonu Exim",
+     "Sonu Exim Pvt Ltd"
+    ],
+    "aliasCount": 3,
+    "industry": "Cut and Sew Apparel Manufacturing (except Contractors)",
+    "legalForm": "Corporation",
+    "lei": "9845009F38BD84F0E027",
+    "leiCount": 1,
+    "companyNumber": "U18109DL2012PTC234508",
+    "buyersTotal": 112,
+    "otherBuyers": [
+     "Boots Opticians Professional Services Ltd",
+     "Cotton On Singapore Pte. Ltd",
+     "Cotton On Clothing Pty. Ltd",
+     "Freepeople.com, LLC",
+     "Cotton On South Africa Pty Ltd",
+     "Mamas & Papas Ltd"
+    ],
+    "inditexBrands": [
+     "Inditex"
+    ],
+    "tier2Total": 17,
+    "tier2": [
+     {
+      "name": "Costa Guerreiro, Lda-Rua Eng",
+      "supplies": [
+       "Labels & tags",
+       "Cord & twine",
+       "Woven labels"
+      ],
+      "country": "PT"
+     },
+     {
+      "name": "Trimco Group (Hong Kong) Company Limited",
+      "supplies": [
+       "Labels & tags",
+       "Woven labels"
+      ],
+      "country": "HK"
+     },
+     {
+      "name": "Tyco Integrated Security SL",
+      "supplies": [
+       "Security tags"
+      ],
+      "country": "ES"
+     },
+     {
+      "name": "Yiwu Difu Import And Export Co., Ltd",
+      "supplies": [
+       "Lace",
+       "Knit fabric"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Prym Fashion Asia Pacific Ltd",
+      "supplies": [
+       "Buttons"
+      ],
+      "country": null
+     },
+     {
+      "name": "Alvanon HK Ltd",
+      "supplies": [
+       "Mannequins"
+      ],
+      "country": "HK"
+     },
+     {
+      "name": "Freudenberg & Vilene International Ltd",
+      "supplies": [
+       "Coated fabric & interlining"
+      ],
+      "country": "DE"
+     },
+     {
+      "name": "Weixing Industrial (Bangladesh) Co.Ltd",
+      "supplies": [
+       "Buttons"
+      ],
+      "country": "BD"
+     }
+    ],
+    "flags": [],
+    "summary": "Garment maker in New Delhi shipping dresses, skirts & trousers, underwear & sleepwear and other garments to Inditex, mostly cotton and synthetic. Trades with 112 buyers on record, including Boots Opticians Professional Services Ltd and Cotton On Singapore Pte. Ltd."
+   }
   },
   {
    "id": "096fcdc7-8d3d-409f-aae7-58caa2763663",
@@ -222,7 +312,128 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 4,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Sahu Exports Pvt Ltd",
+    "aliases": [],
+    "aliasCount": 1,
+    "industry": "Apparel Accessories and Other Apparel Manufacturing",
+    "legalForm": "Corporation",
+    "lei": "984500EE3SDDK1591B21",
+    "leiCount": 1,
+    "companyNumber": "U51311DL2002PTC117263",
+    "buyersTotal": 342,
+    "otherBuyers": [
+     "Urban Outfitters Wholesale, Inc",
+     "Marks and Spencer P.L.C",
+     "IM Production -Isabel Marant",
+     "Abfico Netherlands Distribution B.V",
+     "Abercrombie & Fitch Trading Co"
+    ],
+    "inditexBrands": [
+     "Inditex"
+    ],
+    "tier2Total": 125,
+    "tier2": [
+     {
+      "name": "Prologic (HK) Ltd",
+      "supplies": [
+       "Labels & tags",
+       "Woven labels",
+       "Buttons",
+       "Zips"
+      ],
+      "country": "HK"
+     },
+     {
+      "name": "Close To Clothes AP",
+      "supplies": [
+       "Labels & tags",
+       "Woven labels"
+      ],
+      "country": null
+     },
+     {
+      "name": "Paxar (China) Ltd",
+      "supplies": [
+       "Woven labels"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Huaren Linen (HK) Company Ltd",
+      "supplies": [
+       "Linen fabric"
+      ],
+      "country": "HK"
+     },
+     {
+      "name": "Maxima SRL",
+      "supplies": [
+       "Labels & tags",
+       "Woven labels",
+       "Costume jewellery"
+      ],
+      "country": "IT"
+     },
+     {
+      "name": "HangZhou Granco Imp&Exp Co.,Ltd",
+      "supplies": [
+       "Silk fabric",
+       "Cotton fabric",
+       "Synthetic fabric"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Metalbottoni SPA",
+      "supplies": [
+       "Buckles, hooks & eyelets",
+       "Buttons"
+      ],
+      "country": "IT"
+     },
+     {
+      "name": "Reca Mainetti Asia Ltd",
+      "supplies": [
+       "Embroidery"
+      ],
+      "country": null
+     },
+     {
+      "name": "Shanghai Hansen Global Supply Co., Ltd",
+      "supplies": [
+       "Nonwovens",
+       "Coated fabric & interlining"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Avery Dennison Hong Kong B.V",
+      "supplies": [
+       "Labels & tags"
+      ],
+      "country": "HK"
+     },
+     {
+      "name": "Max Mara S R L",
+      "supplies": [
+       "Labels & tags",
+       "Buttons"
+      ],
+      "country": "IT"
+     },
+     {
+      "name": "Tam Hangers Tk Aski Sanayi Ve Ticar",
+      "supplies": [
+       "Plastic trims & hangers"
+      ],
+      "country": "TR"
+     }
+    ],
+    "flags": [],
+    "summary": "Garment maker in Delhi shipping dresses, skirts & trousers, lace & tulle and blouses to Inditex, mostly cotton and synthetic. Trades with 342 buyers on record, including Urban Outfitters Wholesale, Inc and Marks and Spencer P.L.C."
+   }
   },
   {
    "id": "d70c2a16-2911-41dd-883e-7a0918eddaf3",
@@ -299,7 +510,104 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 16,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Fine Lines",
+    "aliases": [
+     "Fine Lines Enterprises LLP"
+    ],
+    "aliasCount": 2,
+    "industry": "Clothing and Clothing Accessories Merchant Wholesalers",
+    "legalForm": "Proprietorship",
+    "lei": "25490045X0N01WMOMC87",
+    "leiCount": 1,
+    "companyNumber": "AAH-4103",
+    "buyersTotal": 53,
+    "otherBuyers": [
+     "Ekkia Sas"
+    ],
+    "inditexBrands": [
+     "Inditex",
+     "Zara",
+     "Pull&Bear"
+    ],
+    "tier2Total": 30,
+    "tier2": [
+     {
+      "name": "Tanneries Arnal SAS",
+      "supplies": [
+       "Leather"
+      ],
+      "country": "FR"
+     },
+     {
+      "name": "Suzhou Broadcasting System",
+      "supplies": [
+       "Zips"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Guangzhou Zhifeng Hardware Products",
+      "supplies": [
+       "Buckles, hooks & eyelets"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Suzhou the Hope Materials Co.Ltd",
+      "supplies": [
+       "Synthetic fabric",
+       "Coated fabric & interlining"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Tyco Integrated Security SL",
+      "supplies": [
+       "Security tags"
+      ],
+      "country": "ES"
+     },
+     {
+      "name": "K.R.M. Artisans Sprl",
+      "supplies": [
+       "Leather"
+      ],
+      "country": "BE"
+     },
+     {
+      "name": "Prologic (HK) Ltd",
+      "supplies": [
+       "Tools"
+      ],
+      "country": "HK"
+     },
+     {
+      "name": "Dmark Metal Button Company Ltd",
+      "supplies": [
+       "Buckles, hooks & eyelets"
+      ],
+      "country": null
+     },
+     {
+      "name": "Insight Wave Ltd",
+      "supplies": [
+       "Braids & trims"
+      ],
+      "country": null
+     },
+     {
+      "name": "HEFT Metal Products (JiangSu) Co",
+      "supplies": [
+       "Buckles, hooks & eyelets"
+      ],
+      "country": "CN"
+     }
+    ],
+    "flags": [],
+    "summary": "Clothing wholesaler in Noida shipping dresses, skirts & trousers, suits & trousers and shirts to Inditex, mostly cotton and other fibres. Trades with 53 buyers on record, including Ekkia Sas."
+   }
   },
   {
    "id": "c6578296-d80d-45d0-bea1-cb2658bd6cdd",
@@ -365,7 +673,91 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 6,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Vamani Overseas Pvt Ltd",
+    "aliases": [
+     "Vamani Overseas Pvt Ltd"
+    ],
+    "aliasCount": 2,
+    "industry": null,
+    "legalForm": "Company limited by Shares",
+    "lei": "335800GRQBJOYCJHO814",
+    "leiCount": 1,
+    "companyNumber": "U74899DL2002PTC115980",
+    "buyersTotal": 641,
+    "otherBuyers": [
+     "Kmart Australia Ltd",
+     "Williams-Sonoma Singapore Pte. Ltd",
+     "M/S.Target",
+     "Marks and Spencer P.L.C"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 127,
+    "tier2": [
+     {
+      "name": "Bando Chemical Industries Ltd",
+      "supplies": [
+       "Rubber belts",
+       "Cord & twine"
+      ],
+      "country": "JP"
+     },
+     {
+      "name": "Tyco Integrated Security SL",
+      "supplies": [
+       "Security tags"
+      ],
+      "country": "ES"
+     },
+     {
+      "name": "Rockwell Automation B.V",
+      "supplies": [
+       "Electronics"
+      ],
+      "country": "NL"
+     },
+     {
+      "name": "Pact Retail Accessories (Australia) Pty Ltd",
+      "supplies": [
+       "Plastic trims & hangers"
+      ],
+      "country": "AU"
+     },
+     {
+      "name": "Kaiyuan China International Ltd",
+      "supplies": [
+       "Lace",
+       "Knit fabric",
+       "Buttons"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Changzhou STW Industrial Co., Ltd",
+      "supplies": [
+       "Knit fabric"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Miezo Inc",
+      "supplies": [
+       "Electronics"
+      ],
+      "country": null
+     },
+     {
+      "name": "Wenan Yuan Tuo Wood Industry Co. Ltd",
+      "supplies": [
+       "Furniture"
+      ],
+      "country": "CN"
+     }
+    ],
+    "flags": [],
+    "summary": "Supplier in Noida shipping dresses, skirts & trousers, shirts and blouses to Inditex, mostly cotton and synthetic. Trades with 641 buyers on record, including Kmart Australia Ltd and Williams-Sonoma Singapore Pte. Ltd."
+   }
   },
   {
    "id": "1489382c-bcf3-43d4-a650-f5e70a734977",
@@ -425,7 +817,83 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 6,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Viraj Exports Pvt Ltd",
+    "aliases": [],
+    "aliasCount": 1,
+    "industry": "Cut and Sew Apparel Manufacturing (except Contractors)",
+    "legalForm": "Corporation",
+    "lei": "335800KEKEWSKUBVCD94",
+    "leiCount": 1,
+    "companyNumber": "U51311DL1987PTC028198",
+    "buyersTotal": 112,
+    "otherBuyers": [
+     "Next Retail Ltd",
+     "Eurofiel Confeccion SA"
+    ],
+    "inditexBrands": [
+     "Inditex",
+     "Zara Home",
+     "Pull&Bear"
+    ],
+    "tier2Total": 15,
+    "tier2": [
+     {
+      "name": "SML (Hong Kong) Ltd",
+      "supplies": [
+       "Labels & tags",
+       "Woven labels"
+      ],
+      "country": "HK"
+     },
+     {
+      "name": "Tyco Integrated Security SL",
+      "supplies": [
+       "Security tags"
+      ],
+      "country": "ES"
+     },
+     {
+      "name": "Avery Dennison Hong Kong B.V",
+      "supplies": [
+       "Labels & tags"
+      ],
+      "country": "HK"
+     },
+     {
+      "name": "Prym Fashion Asia Pacific Limited",
+      "supplies": [
+       "Buckles, hooks & eyelets",
+       "Buttons"
+      ],
+      "country": null
+     },
+     {
+      "name": "Mainetti Hk Limited",
+      "supplies": [
+       "Plastic trims & hangers"
+      ],
+      "country": "HK"
+     },
+     {
+      "name": "Homesense",
+      "supplies": [
+       "Garments"
+      ],
+      "country": "GB"
+     },
+     {
+      "name": "Montrims Ltd",
+      "supplies": [
+       "Plastic packaging"
+      ],
+      "country": null
+     }
+    ],
+    "flags": [],
+    "summary": "Garment maker in New Delhi shipping dresses, skirts & trousers, blouses and underwear & sleepwear to Inditex, mostly synthetic and cotton. Trades with 112 buyers on record, including Next Retail Ltd and Eurofiel Confeccion SA."
+   }
   },
   {
    "id": "e5c9d26c-817e-4979-88b0-f01236dbf758",
@@ -475,7 +943,89 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 6,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Team Krian",
+    "aliases": [],
+    "aliasCount": 1,
+    "industry": "Apparel Knitting Mills",
+    "legalForm": "Partnership",
+    "lei": "335800BQEDAUODCGLH14",
+    "leiCount": 1,
+    "companyNumber": "0502039272",
+    "buyersTotal": 158,
+    "otherBuyers": [
+     "Cleo Holdings L.L.C",
+     "Sea New York, Inc",
+     "Paradigma S.A.C",
+     "Gossip S.A.U"
+    ],
+    "inditexBrands": [
+     "Inditex"
+    ],
+    "tier2Total": 9,
+    "tier2": [
+     {
+      "name": "Costa Guerrelro Lda",
+      "supplies": [
+       "Labels & tags",
+       "Woven labels"
+      ],
+      "country": "PT"
+     },
+     {
+      "name": "Cadicasia Hong Kong Ltd",
+      "supplies": [
+       "Woven labels"
+      ],
+      "country": "HK"
+     },
+     {
+      "name": "Fuzhou D.Run Trading Co. Ltd",
+      "supplies": [
+       "Lace"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Tyco Integrated Security SL",
+      "supplies": [
+       "Security tags"
+      ],
+      "country": "ES"
+     },
+     {
+      "name": "Yuyue Home Textile Co., Ltd",
+      "supplies": [
+       "Linen fabric"
+      ],
+      "country": null
+     },
+     {
+      "name": "Tak Wai Model Clothes Rack Co",
+      "supplies": [
+       "Mannequins"
+      ],
+      "country": null
+     },
+     {
+      "name": "Prym Fashion Asia Pacific Limited",
+      "supplies": [
+       "Buttons"
+      ],
+      "country": null
+     },
+     {
+      "name": "Brother International (HK) Ltd",
+      "supplies": [
+       "Sewing machines"
+      ],
+      "country": "HK"
+     }
+    ],
+    "flags": [],
+    "summary": "Garment maker in Greater Noida shipping dresses, skirts & trousers, blouses and babywear to Inditex, mostly cotton and other fibres. Trades with 158 buyers on record, including Cleo Holdings L.L.C and Sea New York, Inc."
+   }
   },
   {
    "id": "5ae4d5b3-6f90-44be-9692-1921de53c1eb",
@@ -526,7 +1076,82 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 439,
    "uncertain": true,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Paramount Ltd",
+    "aliases": [
+     "Paramount Surgimed Ltd",
+     "Paramount Wires and Cables Ltd",
+     "Paramount Communications Ltd",
+     "Paramount Aromachem Pvt Ltd"
+    ],
+    "aliasCount": 48,
+    "industry": "Surgical and Medical Instrument Manufacturing",
+    "legalForm": "Proprietorship",
+    "lei": "254900TN6W8U6LSIUQ95",
+    "leiCount": 5,
+    "companyNumber": null,
+    "buyersTotal": 913,
+    "otherBuyers": [
+     "6, LLC",
+     "Kmart Australia Ltd",
+     "4 Enterprises LLC",
+     "Target Australia Pty. Ltd"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 322,
+    "tier2": [
+     {
+      "name": "Osim International Pte. Ltd",
+      "supplies": [
+       "Massage equipment"
+      ],
+      "country": "SG"
+     },
+     {
+      "name": "Tyco Integrated Security SL",
+      "supplies": [
+       "Security tags"
+      ],
+      "country": "ES"
+     },
+     {
+      "name": "Shanghai Hansen Global Supply Co., Ltd",
+      "supplies": [
+       "Cotton fabric",
+       "Synthetic fabric",
+       "Lace",
+       "Knit fabric"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Dongkuk Industries Co. Ltd",
+      "supplies": [
+       "Steel"
+      ],
+      "country": "KR"
+     },
+     {
+      "name": "Pashupati Plywood Industries",
+      "supplies": [
+       "Plywood"
+      ],
+      "country": null
+     }
+    ],
+    "flags": [
+     {
+      "kind": "warn",
+      "text": "Tradeverifyd lists the industry as “Surgical and Medical Instrument Manufacturing”, which doesn't match the clothing it ships. The record may be misclassified, or may mix up several companies with similar names."
+     },
+     {
+      "kind": "warn",
+      "text": "This record has 48 different names on file, and some look like different businesses, so it may merge several companies. Buyers and suppliers below may not all belong to the company that supplies Inditex."
+     }
+    ],
+    "summary": "Supplier in Gujarat shipping dresses, skirts & trousers, blouses and tracksuits & other garments to Inditex, mostly other fibres and cotton. Trades with 913 buyers on record, including 6, LLC and Kmart Australia Ltd."
+   }
   },
   {
    "id": "ab1173a8-a781-411b-adf4-744d74e2817d",
@@ -560,7 +1185,63 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 1,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Usha Garments Manufacturing Company Pvt Ltd",
+    "aliases": [],
+    "aliasCount": 1,
+    "industry": null,
+    "legalForm": null,
+    "lei": null,
+    "leiCount": 0,
+    "companyNumber": null,
+    "buyersTotal": 82,
+    "otherBuyers": [
+     "El Corte Ingles SA",
+     "Desmond & Dempsey Ltd",
+     "El Corte Ingles S.A.Cl Hermosilla 1"
+    ],
+    "inditexBrands": [
+     "Inditex"
+    ],
+    "tier2Total": 34,
+    "tier2": [
+     {
+      "name": "Jiaxing Zhiyuan Import & Export C",
+      "supplies": [
+       "Labels & tags",
+       "Woven labels"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Ibertex Etiquetaje Industrial S L Uc",
+      "supplies": [
+       "Labels & tags",
+       "Woven labels"
+      ],
+      "country": "ES"
+     },
+     {
+      "name": "Avery Dennison Hong Kong B.V",
+      "supplies": [
+       "Labels & tags",
+       "RFID & data tags"
+      ],
+      "country": "HK"
+     },
+     {
+      "name": "Nilorn Portugal - Indústria de Etiquetas, Lda",
+      "supplies": [
+       "Labels & tags",
+       "Woven labels"
+      ],
+      "country": "PT"
+     }
+    ],
+    "flags": [],
+    "summary": "Supplier in Mumbai shipping shirts and suits & trousers to Inditex, mostly cotton and synthetic. Trades with 82 buyers on record, including El Corte Ingles SA and Desmond & Dempsey Ltd."
+   }
   },
   {
    "id": "fe765606-3de3-4240-907d-5f3cf5807f29",
@@ -588,7 +1269,61 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 95,
    "uncertain": true,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Bhartiya Enterprises",
+    "aliases": [
+     "Bhartiya International Ltd",
+     "Bhartiya International Sez Ltd",
+     "Bhartiya Urban Pvt Ltd"
+    ],
+    "aliasCount": 15,
+    "industry": "Other Leather and Allied Product Manufacturing",
+    "legalForm": "Proprietorship",
+    "lei": "335800AIRONI7XSCTB39",
+    "leiCount": 3,
+    "companyNumber": "L74899DL1987PLC026607",
+    "buyersTotal": 1114,
+    "otherBuyers": [
+     "Ralph Lauren Corporation",
+     "All Saints Retail Ltd",
+     "All Saints USA",
+     "Ralph Lauren Asia Pacific Limited"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 421,
+    "tier2": [
+     {
+      "name": "Max Trade Ltd",
+      "supplies": [
+       "Leather",
+       "Labels & tags",
+       "Cotton fabric",
+       "Synthetic fabric",
+       "Buttons"
+      ],
+      "country": "HK"
+     },
+     {
+      "name": "Voyager Trading Partners LLC",
+      "supplies": [
+       "Leather",
+       "Wool fabric",
+       "Synthetic fabric"
+      ],
+      "country": "US"
+     },
+     {
+      "name": "Festo Se & Co.Kg",
+      "supplies": [
+       "Machinery"
+      ],
+      "country": "DE"
+     }
+    ],
+    "flags": [],
+    "summary": "Leather goods maker in Uttar Pradesh shipping leather apparel & belts and viscose filament fabric to Inditex, mostly leather and viscose / artificial. Trades with 1,114 buyers on record, including Ralph Lauren Corporation and All Saints Retail Ltd."
+   }
   },
   {
    "id": "1dfc7bd3-6f74-40da-8e3f-2bbf06338dc2",
@@ -629,7 +1364,68 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 35,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "SND Inc",
+    "aliases": [
+     "S N D Life Science Pvt Ltd",
+     "S.N.D. Enterprises",
+     "SND Corporation"
+    ],
+    "aliasCount": 10,
+    "industry": "Water Supply and Irrigation Systems",
+    "legalForm": "Partnership",
+    "lei": "335800S9AYL4D8JZKE96",
+    "leiCount": 3,
+    "companyNumber": "0505037301",
+    "buyersTotal": 29,
+    "otherBuyers": [
+     "Sole SRL",
+     "Next Retail Ltd"
+    ],
+    "inditexBrands": [
+     "Inditex"
+    ],
+    "tier2Total": 13,
+    "tier2": [
+     {
+      "name": "Antibiotice SA",
+      "supplies": [
+       "Antibiotics"
+      ],
+      "country": "RO"
+     },
+     {
+      "name": "Random Trading Co Ltd",
+      "supplies": [
+       "Synthetic fabric"
+      ],
+      "country": null
+     },
+     {
+      "name": "Jack Technology Co.,Ltd",
+      "supplies": [
+       "Sewing machines"
+      ],
+      "country": null
+     },
+     {
+      "name": "Shanghai Hansen Global Supply Co., Ltd",
+      "supplies": [
+       "Synthetic fabric",
+       "Knit fabric"
+      ],
+      "country": "CN"
+     }
+    ],
+    "flags": [
+     {
+      "kind": "warn",
+      "text": "Tradeverifyd lists the industry as “Water Supply and Irrigation Systems”, which doesn't match the clothing it ships. The record may be misclassified, or may mix up several companies with similar names."
+     }
+    ],
+    "summary": "Supplier in Noida shipping dresses, skirts & trousers, tracksuits & other garments and blouses to Inditex, mostly cotton and synthetic. Trades with 29 buyers on record, including Sole SRL and Next Retail Ltd."
+   }
   },
   {
    "id": "f4f67f27-502a-4714-8e9b-c6c03165f4a3",
@@ -701,7 +1497,70 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 23,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "CTA Apparels Pvt Ltd",
+    "aliases": [
+     "CTA Apparels"
+    ],
+    "aliasCount": 2,
+    "industry": "Broadwoven Fabric Mills",
+    "legalForm": "Corporation",
+    "lei": "335800B24V4FH66XE113",
+    "leiCount": 1,
+    "companyNumber": "U74899DL1993PTC052505",
+    "buyersTotal": 311,
+    "otherBuyers": [
+     "Bestseller A/S",
+     "H & M Hennes & Mauritz Gbc AB",
+     "El Corte Ingles SA",
+     "Street One GmbH"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 89,
+    "tier2": [
+     {
+      "name": "Druckerei Mantow GmbH",
+      "supplies": [
+       "Labels & tags",
+       "Fibre & yarn"
+      ],
+      "country": "DE"
+     },
+     {
+      "name": "Young Button Co. Ltd",
+      "supplies": [
+       "Buckles, hooks & eyelets",
+       "Buttons"
+      ],
+      "country": null
+     },
+     {
+      "name": "J. Zimmer Maschinenbau GmbH",
+      "supplies": [
+       "Machinery"
+      ],
+      "country": "DE"
+     },
+     {
+      "name": "Trimco Group Trading Hongkong Co",
+      "supplies": [
+       "Woven labels"
+      ],
+      "country": "HK"
+     },
+     {
+      "name": "Ibertex Etiquetaje Industrial S.L.U",
+      "supplies": [
+       "Labels & tags",
+       "Woven labels"
+      ],
+      "country": "ES"
+     }
+    ],
+    "flags": [],
+    "summary": "Textile mill in Mumbai shipping dresses, skirts & trousers, shirts and blouses to Inditex, mostly cotton and other fibres. Trades with 311 buyers on record, including Bestseller A/S and H & M Hennes & Mauritz Gbc AB."
+   }
   },
   {
    "id": "405b49ef-f419-40ae-9cf2-117a5f7d0b49",
@@ -732,7 +1591,75 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 8,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Prits Group Pvt Ltd",
+    "aliases": [
+     "Prits Leather Art Pvt Ltd"
+    ],
+    "aliasCount": 2,
+    "industry": "Other Personal Care Services",
+    "legalForm": "Corporation",
+    "lei": "335800N54AGUQJ33B534",
+    "leiCount": 1,
+    "companyNumber": "U93000DL2009PTC190136",
+    "buyersTotal": 330,
+    "otherBuyers": [
+     "Louise Misha C/O Sauerbrei Logistic",
+     "Prolinair Asia Ltd",
+     "Samsoe & Samsoe Shops ApS",
+     "Urban Outfitter Wholesale, Inc"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 51,
+    "tier2": [
+     {
+      "name": "Zhong Yan Hong",
+      "supplies": [
+       "Buckles, hooks & eyelets",
+       "Buttons"
+      ],
+      "country": null
+     },
+     {
+      "name": "Paxar (China) Ltd",
+      "supplies": [
+       "Woven labels"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Zhejiang Chuangfa Zipper Technolog",
+      "supplies": [
+       "Zips"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Nilorn Portugal - Indústria de Etiquetas, Lda",
+      "supplies": [
+       "Labels & tags",
+       "Woven labels"
+      ],
+      "country": "PT"
+     },
+     {
+      "name": "Guangzhou Ye Heng Hardware Product",
+      "supplies": [
+       "Buckles, hooks & eyelets",
+       "Buttons"
+      ],
+      "country": "CN"
+     }
+    ],
+    "flags": [
+     {
+      "kind": "warn",
+      "text": "Tradeverifyd lists the industry as “Other Personal Care Services”, which doesn't match the clothing it ships. The record may be misclassified, or may mix up several companies with similar names."
+     }
+    ],
+    "summary": "Supplier in Delhi shipping handbags & cases, leather apparel & belts and leather articles to Inditex, mostly leather and leather / textile / plastic. Trades with 330 buyers on record, including Louise Misha C/O Sauerbrei Logistic and Prolinair Asia Ltd."
+   }
   },
   {
    "id": "014eeb83-b67c-46ff-847d-63d28504e2f4",
@@ -755,7 +1682,36 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 8,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Mitra Adiperkasa Vietnam Company Ltd",
+    "aliases": [
+     "Công Ty Tnhh Mitra Adiperkasa ViỆT Nam"
+    ],
+    "aliasCount": 2,
+    "industry": "Shoe Retailers",
+    "legalForm": "Corporation",
+    "lei": null,
+    "leiCount": 0,
+    "companyNumber": "0012377487",
+    "buyersTotal": 6,
+    "otherBuyers": [
+     "Tyco Services Malaysia Sdn.Bhd",
+     "Victoria Secret & Company"
+    ],
+    "inditexBrands": [
+     "Inditex"
+    ],
+    "tier2Total": 12,
+    "tier2": [],
+    "flags": [
+     {
+      "kind": "info",
+      "text": "Retailer: buys Zara stock from Inditex (franchise partner), not a factory."
+     }
+    ],
+    "summary": "Fashion retailer in Ho Chi Minh City that buys stock from Inditex to sell in its own region. Trades with 6 buyers on record, including Tyco Services Malaysia Sdn.Bhd and Victoria Secret & Company."
+   }
   },
   {
    "id": "e5421cf8-c93a-4c95-8866-92aba98a3582",
@@ -780,7 +1736,73 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 21,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Indian Designs Exports Pvt Ltd",
+    "aliases": [
+     "Indian Designs"
+    ],
+    "aliasCount": 2,
+    "industry": "Cut and Sew Apparel Manufacturing (except Contractors)",
+    "legalForm": "Proprietorship",
+    "lei": "335800CEVAS6R4O7FK31",
+    "leiCount": 1,
+    "companyNumber": "U01810KA1995PTC018845",
+    "buyersTotal": 720,
+    "otherBuyers": [
+     "Ikea Distribution Services GmbH",
+     "Old Navy LLC",
+     "Ikea Supply AG",
+     "Columbia Sportswear Co"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 347,
+    "tier2": [
+     {
+      "name": "Hang Sang (Siu Po) Press Company Ltd",
+      "supplies": [
+       "Labels & tags"
+      ],
+      "country": null
+     },
+     {
+      "name": "Yixing Zhongda Textile Co., Ltd",
+      "supplies": [
+       "Cotton fabric",
+       "Synthetic fabric",
+       "Velvet & corduroy"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Jiangsu Junlin Textiles Technology Corp., Ltd",
+      "supplies": [
+       "Cotton fabric",
+       "Synthetic fabric",
+       "Knit fabric"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Stanco Worldwide Ltd",
+      "supplies": [
+       "Labels & tags",
+       "Woven labels",
+       "Buttons"
+      ],
+      "country": null
+     },
+     {
+      "name": "BD Designs Pvt Ltd",
+      "supplies": [
+       "Garments"
+      ],
+      "country": "IN"
+     }
+    ],
+    "flags": [],
+    "summary": "Garment maker in Ahmedabad shipping suits & trousers and shirts to Inditex, mostly cotton. Trades with 720 buyers on record, including Ikea Distribution Services GmbH and Old Navy LLC."
+   }
   },
   {
    "id": "21bc2fc4-6c15-4e65-8d32-5192af3210cc",
@@ -821,7 +1843,66 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 4,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Ranika Exports Design",
+    "aliases": [],
+    "aliasCount": 1,
+    "industry": "Knit Fabric Mills",
+    "legalForm": "Proprietorship",
+    "lei": "335800ZHWYBWXAZ6ZZ49",
+    "leiCount": 1,
+    "companyNumber": "0502073594",
+    "buyersTotal": 140,
+    "otherBuyers": [
+     "T.J. Maxx of Ca, LLC",
+     "Newton Buying Corp (TJ Maxx)",
+     "Homesense",
+     "Urban Outfitters Wholesales Inc"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 29,
+    "tier2": [
+     {
+      "name": "Ever Win Labels Company Ltd",
+      "supplies": [
+       "Labels & tags",
+       "Woven labels"
+      ],
+      "country": null
+     },
+     {
+      "name": "Guangzhou Centurion Bags and Accessories Ltd",
+      "supplies": [
+       "Buckles, hooks & eyelets"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Tae Kwang Commercial Co.Ltd",
+      "supplies": [
+       "Leather"
+      ],
+      "country": null
+     },
+     {
+      "name": "Ideal Fastener India Pvt Ltd",
+      "supplies": [
+       "Zips"
+      ],
+      "country": "IN"
+     },
+     {
+      "name": "Originale Comercio de Couros",
+      "supplies": [
+       "Leather"
+      ],
+      "country": "BR"
+     }
+    ],
+    "flags": [],
+    "summary": "Textile mill in Noida shipping handbags & cases, scarves & shawls and dresses, skirts & trousers to Inditex, mostly synthetic and leather / textile / plastic. Trades with 140 buyers on record, including T.J. Maxx of Ca, LLC and Newton Buying Corp (TJ Maxx)."
+   }
   },
   {
    "id": "f6d45630-97b3-42b3-87cf-24a8dab92226",
@@ -845,7 +1926,79 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 148,
    "uncertain": true,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Gemini Enterprises",
+    "aliases": [
+     "Gemini Graphics Ltd",
+     "Gemini Software Solutions Pvt Ltd",
+     "Gemini Industries and Imaging Ltd"
+    ],
+    "aliasCount": 16,
+    "industry": "Paper Mills",
+    "legalForm": "Proprietorship",
+    "lei": "335800C5RVSV6CVDBQ94",
+    "leiCount": 2,
+    "companyNumber": "U51909CH1984PLC005965",
+    "buyersTotal": 182,
+    "otherBuyers": [
+     "Hugo Boss AG",
+     "SK Treid, Ooo",
+     "G.A. Operations SPA"
+    ],
+    "inditexBrands": [
+     "Massimo Dutti"
+    ],
+    "tier2Total": 258,
+    "tier2": [
+     {
+      "name": "Zhejiang Weixing Imp.& Exp Co., Ltd",
+      "supplies": [
+       "Buckles, hooks & eyelets",
+       "Buttons",
+       "Zips"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Frameless Asia Pacific Ltd",
+      "supplies": [
+       "Buckles, hooks & eyelets",
+       "Buttons"
+      ],
+      "country": null
+     },
+     {
+      "name": "G.A. Operations SPA",
+      "supplies": [
+       "Leather",
+       "Labels & tags"
+      ],
+      "country": "IT"
+     },
+     {
+      "name": "Nemark Boton S.L",
+      "supplies": [
+       "Buttons"
+      ],
+      "country": "ES"
+     },
+     {
+      "name": "Knopf Und Knopf International GmbH",
+      "supplies": [
+       "Buttons"
+      ],
+      "country": "DE"
+     }
+    ],
+    "flags": [
+     {
+      "kind": "warn",
+      "text": "Tradeverifyd lists the industry as “Paper Mills”, which doesn't match the clothing it ships. The record may be misclassified, or may mix up several companies with similar names."
+     }
+    ],
+    "summary": "Supplier in Mumbai shipping leather apparel & belts to Inditex, mostly leather. Trades with 182 buyers on record, including Hugo Boss AG and SK Treid, Ooo."
+   }
   },
   {
    "id": "6f45eefc-d62f-42bc-ae86-0144678f0621",
@@ -872,7 +2025,63 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 3,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Nam Chau Garment JSC",
+    "aliases": [
+     "Công Ty CỔ PhẦN May NĂM Châu"
+    ],
+    "aliasCount": 2,
+    "industry": "Apparel Accessories and Other Apparel Manufacturing",
+    "legalForm": "Joint stock company",
+    "lei": null,
+    "leiCount": 0,
+    "companyNumber": "0011444628",
+    "buyersTotal": 12,
+    "otherBuyers": [
+     "Marks and Spencer P.L.C",
+     "Dubhe Co. Ltd"
+    ],
+    "inditexBrands": [
+     "Massimo Dutti",
+     "Inditex"
+    ],
+    "tier2Total": 35,
+    "tier2": [
+     {
+      "name": "Dubhe Co. Ltd",
+      "supplies": [
+       "Cotton fabric",
+       "Synthetic fabric",
+       "Buttons"
+      ],
+      "country": null
+     },
+     {
+      "name": "IDT Asia Global Service Co.,(Shanghai) Ltd",
+      "supplies": [
+       "Labels & tags"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Kumsung Ak Corp",
+      "supplies": [
+       "Buttons"
+      ],
+      "country": "KR"
+     },
+     {
+      "name": "Avery Dennison Hong Kong B.V",
+      "supplies": [
+       "Labels & tags"
+      ],
+      "country": "HK"
+     }
+    ],
+    "flags": [],
+    "summary": "Garment maker in Bac Giang shipping coats & jackets to Inditex, mostly cotton and synthetic. Trades with 12 buyers on record, including Marks and Spencer P.L.C and Dubhe Co. Ltd."
+   }
   },
   {
    "id": "1149622f-5e9d-40e2-9460-cf059bc53b67",
@@ -904,7 +2113,68 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 18,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Shingora Textiles Pvt Ltd",
+    "aliases": [
+     "Shingora"
+    ],
+    "aliasCount": 2,
+    "industry": "Apparel Knitting Mills",
+    "legalForm": "Corporation",
+    "lei": "335800S8NGEMYOBQST49",
+    "leiCount": 1,
+    "companyNumber": "U17200PB2008PTC054614",
+    "buyersTotal": 213,
+    "otherBuyers": [
+     "Inoui Et Compagnie",
+     "Fashion 1 GmbH",
+     "Moismont Echarpes Et Accessoires",
+     "Echo Design Group"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 55,
+    "tier2": [
+     {
+      "name": "Trimco Group Trading (Hong Kong) Company Limited",
+      "supplies": [
+       "Labels & tags",
+       "Woven labels"
+      ],
+      "country": "HK"
+     },
+     {
+      "name": "SML (Hong Kong) Ltd",
+      "supplies": [
+       "Labels & tags"
+      ],
+      "country": "HK"
+     },
+     {
+      "name": "Toray International (China) Co., Ltd",
+      "supplies": [
+       "Fibre & yarn"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "THK Manufacturing of Vietnam Co.Ltd",
+      "supplies": [
+       "Machinery"
+      ],
+      "country": "VN"
+     },
+     {
+      "name": "Wuxi Winto Machinery Equipment Co",
+      "supplies": [
+       "Textile machinery parts"
+      ],
+      "country": "CN"
+     }
+    ],
+    "flags": [],
+    "summary": "Garment maker in New Delhi shipping tracksuits & other garments, handkerchiefs and scarves & shawls to Inditex, mostly other fibres and cotton. Trades with 213 buyers on record, including Inoui Et Compagnie and Fashion 1 GmbH."
+   }
   },
   {
    "id": "73a4e9c3-81f7-4bff-9144-f9fa10427fc2",
@@ -942,7 +2212,68 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 3,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Phu Tho Garment JSC",
+    "aliases": [
+     "Phu Tho Garment JSC - Thanh Ba Export Garment Factory"
+    ],
+    "aliasCount": 2,
+    "industry": "Apparel Knitting Mills",
+    "legalForm": "Joint stock company",
+    "lei": null,
+    "leiCount": 0,
+    "companyNumber": "2600270749",
+    "buyersTotal": 13,
+    "otherBuyers": [
+     "Mango Mng S.A",
+     "Global Garment Sourcing Co Ltd",
+     "Creative Resources Co., Ltd"
+    ],
+    "inditexBrands": [
+     "Inditex"
+    ],
+    "tier2Total": 11,
+    "tier2": [
+     {
+      "name": "Global Garment Sourcing Co Ltd",
+      "supplies": [
+       "Synthetic fabric",
+       "Nonwovens",
+       "Knit fabric",
+       "Buttons"
+      ],
+      "country": null
+     },
+     {
+      "name": "GGS Co., Ltd",
+      "supplies": [
+       "Synthetic fabric",
+       "Knit fabric",
+       "Zips"
+      ],
+      "country": null
+     },
+     {
+      "name": "Creative Resources Co., Ltd",
+      "supplies": [
+       "Synthetic fabric",
+       "Woven labels"
+      ],
+      "country": null
+     },
+     {
+      "name": "JCON Corporation",
+      "supplies": [
+       "Synthetic fabric",
+       "Buttons"
+      ],
+      "country": null
+     }
+    ],
+    "flags": [],
+    "summary": "Garment maker in Phu Tho shipping coats & jackets, suits & trousers and babywear to Inditex, mostly synthetic and cotton. Trades with 13 buyers on record, including Mango Mng S.A and Global Garment Sourcing Co Ltd."
+   }
   },
   {
    "id": "374c4296-3897-4340-b9a1-0285f44041ef",
@@ -966,7 +2297,73 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 3921,
    "uncertain": true,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Bharat Sales",
+    "aliases": [
+     "Bharat Engineering Company",
+     "Bharat Agri Fert & Realty Ltd",
+     "Bharat Glass Works",
+     "Mehruta Textile Mills"
+    ],
+    "aliasCount": 72,
+    "industry": "All Other Miscellaneous Retailers",
+    "legalForm": "Partnership",
+    "lei": "335800JV5PGQ6OXWW659",
+    "leiCount": 2,
+    "companyNumber": null,
+    "buyersTotal": 598,
+    "otherBuyers": [
+     "Last Brand Inc (Quince)"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 380,
+    "tier2": [
+     {
+      "name": "Rola Industrial (Hongkong) Co Ltd",
+      "supplies": [
+       "Buckles, hooks & eyelets",
+       "Zips"
+      ],
+      "country": "HK"
+     },
+     {
+      "name": "Dorlet China Ltd",
+      "supplies": [
+       "Buckles, hooks & eyelets",
+       "Zips"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Mettetal Creation",
+      "supplies": [
+       "Buttons",
+       "Zips"
+      ],
+      "country": "FR"
+     },
+     {
+      "name": "KCC Zipper Co. Ltd",
+      "supplies": [
+       "Buttons",
+       "Zips"
+      ],
+      "country": null
+     }
+    ],
+    "flags": [
+     {
+      "kind": "warn",
+      "text": "Tradeverifyd lists the industry as “All Other Miscellaneous Retailers”, which doesn't match the clothing it ships. The record may be misclassified, or may mix up several companies with similar names."
+     },
+     {
+      "kind": "warn",
+      "text": "This record has 72 different names on file, and some look like different businesses, so it may merge several companies. Buyers and suppliers below may not all belong to the company that supplies Inditex."
+     }
+    ],
+    "summary": "Supplier in Uttar Pradesh shipping leather apparel & belts to Inditex, mostly leather. Trades with 598 buyers on record, including Last Brand Inc (Quince)."
+   }
   },
   {
    "id": "d2ae72f6-80ad-40bc-a7e9-ec36c07be3e3",
@@ -999,7 +2396,61 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 7,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "IIPI Global LLP",
+    "aliases": [],
+    "aliasCount": 1,
+    "industry": "Cut and Sew Apparel Manufacturing (except Contractors)",
+    "legalForm": "Partnership",
+    "lei": "9845001CPD8C5C1F8A29",
+    "leiCount": 1,
+    "companyNumber": "AAQ-1061",
+    "buyersTotal": 118,
+    "otherBuyers": [
+     "T.J. Maxx of Ca, LLC",
+     "Mobiltron Wild Hipanema",
+     "Exclusive Logistics Ltd"
+    ],
+    "inditexBrands": [
+     "Tempe (Inditex footwear)"
+    ],
+    "tier2Total": 12,
+    "tier2": [
+     {
+      "name": "Checkpoint Systems Bangladesh Ltd",
+      "supplies": [
+       "Labels & tags",
+       "Woven labels"
+      ],
+      "country": "BD"
+     },
+     {
+      "name": "Fullwin (China) Bags Company Ltd",
+      "supplies": [
+       "Buckles, hooks & eyelets"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Kurt Geiger Ltd",
+      "supplies": [
+       "Bags & leather goods"
+      ],
+      "country": "GB"
+     },
+     {
+      "name": "Alberto Aspesi & C.S.P.A",
+      "supplies": [
+       "Synthetic fabric",
+       "Labels & tags"
+      ],
+      "country": "IT"
+     }
+    ],
+    "flags": [],
+    "summary": "Garment maker in Gurugram shipping handbags & cases, dresses, skirts & trousers and home furnishings to Inditex, mostly leather / textile / plastic and cotton. Trades with 118 buyers on record, including T.J. Maxx of Ca, LLC and Mobiltron Wild Hipanema."
+   }
   },
   {
    "id": "5d45b9de-35ba-416f-9432-5313803e9e28",
@@ -1023,7 +2474,71 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 104,
    "uncertain": true,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "RK and Co",
+    "aliases": [
+     "R.K. & Company",
+     "RK Enterprises & Co"
+    ],
+    "aliasCount": 22,
+    "industry": "Other Accounting Services",
+    "legalForm": "Proprietorship",
+    "lei": "335800GQZVFYJYYO6T58",
+    "leiCount": 2,
+    "companyNumber": null,
+    "buyersTotal": 190,
+    "otherBuyers": [
+     "El Corte Ingles SA",
+     "Dolgencorp, LLC",
+     "World Market, LLC"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 24,
+    "tier2": [
+     {
+      "name": "Unique Labels & Ribbons(Guangzhou)Ltd",
+      "supplies": [
+       "Labels & tags",
+       "Woven labels"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Hong Kong Super Power Industrial Ltd",
+      "supplies": [
+       "Ribbons & tape",
+       "Buckles, hooks & eyelets"
+      ],
+      "country": "HK"
+     },
+     {
+      "name": "HK Sing Kei Industrial Ltd",
+      "supplies": [
+       "Buckles, hooks & eyelets"
+      ],
+      "country": "HK"
+     },
+     {
+      "name": "Tyco Integrated Security SL",
+      "supplies": [
+       "Security tags"
+      ],
+      "country": "ES"
+     }
+    ],
+    "flags": [
+     {
+      "kind": "warn",
+      "text": "Tradeverifyd lists the industry as “Other Accounting Services”, which doesn't match the clothing it ships. The record may be misclassified, or may mix up several companies with similar names."
+     },
+     {
+      "kind": "warn",
+      "text": "This record has 22 different names on file, and some look like different businesses, so it may merge several companies. Buyers and suppliers below may not all belong to the company that supplies Inditex."
+     }
+    ],
+    "summary": "Supplier in Ludhiana shipping handbags & cases to Inditex, mostly leather / textile / plastic. Trades with 190 buyers on record, including El Corte Ingles SA and Dolgencorp, LLC."
+   }
   },
   {
    "id": "9b97b43c-9fcb-41c7-939f-9a15e5173463",
@@ -1055,7 +2570,75 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 319,
    "uncertain": true,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Shahi Corporation",
+    "aliases": [
+     "Shahi Exports Pvt Ltd",
+     "Shahi Apparel Pvt Ltd",
+     "Shahi Shipping Ltd"
+    ],
+    "aliasCount": 23,
+    "industry": "Apparel Knitting Mills",
+    "legalForm": "Partnership",
+    "lei": "335800DHHSGJYZX54R22",
+    "leiCount": 2,
+    "companyNumber": "U18101DL2005PTC138730",
+    "buyersTotal": 2962,
+    "otherBuyers": [
+     "Decathlon Sports Ireland Ltd",
+     "Walmart Stores Inc Usa",
+     "Pvh Corp",
+     "Kohl's, Inc"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 1809,
+    "tier2": [
+     {
+      "name": "Standard Supply Trading Company Ltd",
+      "supplies": [
+       "Cotton fabric",
+       "Synthetic fabric",
+       "Buttons"
+      ],
+      "country": null
+     },
+     {
+      "name": "Rama-Hans International Ltd",
+      "supplies": [
+       "Labels & tags",
+       "Woven labels",
+       "Buttons"
+      ],
+      "country": null
+     },
+     {
+      "name": "CHARGEURS PCC Asia Limited",
+      "supplies": [
+       "Cotton fabric",
+       "Nonwovens",
+       "Coated fabric & interlining"
+      ],
+      "country": null
+     },
+     {
+      "name": "Good Luck Fashions Ltd",
+      "supplies": [
+       "Labels & tags",
+       "Synthetic fabric",
+       "Buttons"
+      ],
+      "country": null
+     }
+    ],
+    "flags": [
+     {
+      "kind": "warn",
+      "text": "This record has 23 different names on file, and some look like different businesses, so it may merge several companies. Buyers and suppliers below may not all belong to the company that supplies Inditex."
+     }
+    ],
+    "summary": "Garment maker in Jharkhand shipping suits & trousers, shirts and t-shirts & vests to Inditex, mostly cotton and synthetic. Trades with 2,962 buyers on record, including Decathlon Sports Ireland Ltd and Walmart Stores Inc Usa."
+   }
   },
   {
    "id": "b92ab73c-e79a-41ee-a930-166776872768",
@@ -1095,7 +2678,65 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 2994,
    "uncertain": true,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Meenu Creation",
+    "aliases": [
+     "Meenu Creation LLP"
+    ],
+    "aliasCount": 2,
+    "industry": "Textile and Fabric Finishing Mills",
+    "legalForm": "Proprietorship",
+    "lei": "335800D9RP4UL1JOQH16",
+    "leiCount": 1,
+    "companyNumber": "AAF-8496",
+    "buyersTotal": 166,
+    "otherBuyers": [
+     "Kiabi Logistique",
+     "El Corte Ingles SA"
+    ],
+    "inditexBrands": [
+     "Stradivarius"
+    ],
+    "tier2Total": 31,
+    "tier2": [
+     {
+      "name": "Avery Dennison Hong Kong B.V",
+      "supplies": [
+       "Labels & tags",
+       "RFID & data tags"
+      ],
+      "country": "HK"
+     },
+     {
+      "name": "Shanghai Jianglong Import & Export Corp",
+      "supplies": [
+       "Cotton fabric",
+       "Linen fabric",
+       "Synthetic fabric",
+       "Knit fabric"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Paxar (China) Ltd",
+      "supplies": [
+       "Woven labels"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "R-Pac Hong Kong Ltd",
+      "supplies": [
+       "Labels & tags",
+       "Woven labels"
+      ],
+      "country": "HK"
+     }
+    ],
+    "flags": [],
+    "summary": "Textile mill in Bihar shipping dresses, skirts & trousers, tracksuits & other garments and home furnishings to Inditex, mostly cotton and other fibres. Trades with 166 buyers on record, including Kiabi Logistique and El Corte Ingles SA."
+   }
   },
   {
    "id": "253acbf3-fa85-448f-ab41-432f7165212c",
@@ -1121,7 +2762,53 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 19,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Showroom 79 Exports",
+    "aliases": [],
+    "aliasCount": 1,
+    "industry": "Clothing and Clothing Accessories Retailers",
+    "legalForm": "Partnership",
+    "lei": "335800UM3H7CYPKADM78",
+    "leiCount": 1,
+    "companyNumber": "27AEQFS2721E1ZY",
+    "buyersTotal": 28,
+    "otherBuyers": [
+     "Myer Pty Ltd",
+     "Coles Group Ltd",
+     "Landmark Group Holding L.L.C",
+     "Rna Resources Group Ltd"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 9,
+    "tier2": [
+     {
+      "name": "Pact Retail Accessories (Australia) Pty Ltd",
+      "supplies": [
+       "Plastic trims & hangers"
+      ],
+      "country": "AU"
+     },
+     {
+      "name": "Pretex International Ltd",
+      "supplies": [
+       "Synthetic fabric",
+       "Knit fabric"
+      ],
+      "country": null
+     },
+     {
+      "name": "Prym Fashion Asia Pacific Limited",
+      "supplies": [
+       "Buckles, hooks & eyelets",
+       "Buttons"
+      ],
+      "country": null
+     }
+    ],
+    "flags": [],
+    "summary": "Clothing exporter in New Delhi shipping suits & trousers and shirts to Inditex, mostly other fibres and cotton. Trades with 28 buyers on record, including Myer Pty Ltd and Coles Group Ltd."
+   }
   },
   {
    "id": "754e64ce-b1c9-4fd6-94b9-de115edbcfa3",
@@ -1146,7 +2833,77 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 3,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "R.K Enterprises",
+    "aliases": [
+     "R.K. Marble Pvt Ltd",
+     "RK Corporation"
+    ],
+    "aliasCount": 31,
+    "industry": "All Other Miscellaneous Retailers",
+    "legalForm": "Proprietorship",
+    "lei": "335800TE5TQAJQO2UN03",
+    "leiCount": 2,
+    "companyNumber": "U14101RJ1989PTC004974",
+    "buyersTotal": 108,
+    "otherBuyers": [
+     "Cosmos Cement Industries",
+     "Shree Shyam Traders and Suppliers",
+     "Kabir Traders",
+     "Jagriti International Pvt Ltd"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 40,
+    "tier2": [
+     {
+      "name": "Yiwu Yanxin Trading Firm",
+      "supplies": [
+       "Lighting"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Texon Non Woven Ltd",
+      "supplies": [
+       "Nonwovens"
+      ],
+      "country": null
+     },
+     {
+      "name": "Zhongshan Newrise Imp.&Exp.Co. Ltd",
+      "supplies": [
+       "Lighting"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Taizhou Hehe Lighting Co., Ltd",
+      "supplies": [
+       "Lighting"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Quanzhou Worui New Material Co., Ltd",
+      "supplies": [
+       "Plastics"
+      ],
+      "country": "CN"
+     }
+    ],
+    "flags": [
+     {
+      "kind": "warn",
+      "text": "Tradeverifyd lists the industry as “All Other Miscellaneous Retailers”, which doesn't match the clothing it ships. The record may be misclassified, or may mix up several companies with similar names."
+     },
+     {
+      "kind": "warn",
+      "text": "This record has 31 different names on file, and some look like different businesses, so it may merge several companies. Buyers and suppliers below may not all belong to the company that supplies Inditex."
+     }
+    ],
+    "summary": "Supplier in Thane shipping handbags & cases to Inditex, mostly leather / textile / plastic. Trades with 108 buyers on record, including Cosmos Cement Industries and Shree Shyam Traders and Suppliers."
+   }
   },
   {
    "id": "dc12f216-4491-4d6e-8dba-445f037b02c4",
@@ -1177,7 +2934,55 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 9,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Centex International Pvt Ltd",
+    "aliases": [
+     "Centex Fabrics Export Unit"
+    ],
+    "aliasCount": 2,
+    "industry": "Apparel Knitting Mills",
+    "legalForm": "Corporation",
+    "lei": "335800G2OE8EOJJ3YM85",
+    "leiCount": 1,
+    "companyNumber": "U18109DL2010PTC206616",
+    "buyersTotal": 518,
+    "otherBuyers": [
+     "Premium Brands Opco LLC",
+     "HUGO BOSS Ticino SA",
+     "Urban Outfitters Wholesale, Inc",
+     "Next Retail Ltd"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 111,
+    "tier2": [
+     {
+      "name": "Paxar (China) Ltd",
+      "supplies": [
+       "Labels & tags",
+       "Woven labels"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Druckerei Mantow GmbH",
+      "supplies": [
+       "Labels & tags",
+       "Fibre & yarn"
+      ],
+      "country": "DE"
+     },
+     {
+      "name": "Nit IC Ve Dis Ticaret A.S",
+      "supplies": [
+       "Textile machinery parts"
+      ],
+      "country": "TR"
+     }
+    ],
+    "flags": [],
+    "summary": "Garment maker in Gurugram shipping scarves & shawls, coats & jackets and hats to Inditex, mostly other fibres and wool. Trades with 518 buyers on record, including Premium Brands Opco LLC and HUGO BOSS Ticino SA."
+   }
   },
   {
    "id": "367421c1-fc50-423c-a73f-cff8cc93ba3e",
@@ -1211,7 +3016,63 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 7,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Concept Clothing Pvt Ltd",
+    "aliases": [],
+    "aliasCount": 1,
+    "industry": "Broadwoven Fabric Mills",
+    "legalForm": "Corporation",
+    "lei": "335800MUTV9ADWBW7U65",
+    "leiCount": 1,
+    "companyNumber": "U17120DL2008PTC183830",
+    "buyersTotal": 278,
+    "otherBuyers": [
+     "Na Pali SAS",
+     "Na Pali Katoen",
+     "5 Star Apparel L.L.C",
+     "Volcom"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 34,
+    "tier2": [
+     {
+      "name": "Uniter Etiket Sanayi Ve Ticaret",
+      "supplies": [
+       "Labels & tags",
+       "Woven labels"
+      ],
+      "country": "TR"
+     },
+     {
+      "name": "Dongguan Oreste Export & Import Co",
+      "supplies": [
+       "Cotton fabric",
+       "Synthetic fabric",
+       "Lace"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Shanghai Weixing Garment Accessories Co. Ltd",
+      "supplies": [
+       "Buckles, hooks & eyelets",
+       "Buttons"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Brand I.D. HK Ltd",
+      "supplies": [
+       "Labels & tags",
+       "Woven labels"
+      ],
+      "country": "HK"
+     }
+    ],
+    "flags": [],
+    "summary": "Textile mill in Gurugram shipping dresses, skirts & trousers, tracksuits & other garments and embroidery to Inditex, mostly cotton and synthetic. Trades with 278 buyers on record, including Na Pali SAS and Na Pali Katoen."
+   }
   },
   {
    "id": "d96d4663-4b90-48db-8d52-2ca696b99b09",
@@ -1234,7 +3095,63 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 4,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Thai Son Global Garment JSC",
+    "aliases": [],
+    "aliasCount": 1,
+    "industry": "Apparel Accessories and Other Apparel Manufacturing",
+    "legalForm": "Joint stock company",
+    "lei": null,
+    "leiCount": 0,
+    "companyNumber": "2400948427",
+    "buyersTotal": 34,
+    "otherBuyers": [
+     "Jiangsu Soho Technology Trading Co., Ltd",
+     "KP Retail",
+     "Tin Thanh (HK) Garment Co. Ltd",
+     "Gaehwa Trading Co"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 18,
+    "tier2": [
+     {
+      "name": "Jiangsu Soho Technology Trading Co., Ltd",
+      "supplies": [
+       "Synthetic fabric",
+       "Buttons"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "FGL INTERNATIONAL Co., Ltd",
+      "supplies": [
+       "Thread",
+       "Synthetic fabric",
+       "Buttons"
+      ],
+      "country": null
+     },
+     {
+      "name": "Tin Thanh (HK) Garment Co. Ltd",
+      "supplies": [
+       "Synthetic fabric",
+       "Nonwovens"
+      ],
+      "country": "HK"
+     },
+     {
+      "name": "Cosmo I&C",
+      "supplies": [
+       "Synthetic fabric",
+       "Knit fabric"
+      ],
+      "country": null
+     }
+    ],
+    "flags": [],
+    "summary": "Garment maker in Bac Giang shipping dresses, skirts & trousers to Inditex, mostly synthetic. Trades with 34 buyers on record, including Jiangsu Soho Technology Trading Co., Ltd and KP Retail."
+   }
   },
   {
    "id": "56d9deb7-c689-4547-8b0c-96d6d1165cc9",
@@ -1260,7 +3177,34 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 6,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Supersonic Marketing Pvt Ltd",
+    "aliases": [],
+    "aliasCount": 1,
+    "industry": "Nonferrous Metal (except Aluminum) Smelting and Refining",
+    "legalForm": "Corporation",
+    "lei": null,
+    "leiCount": 0,
+    "companyNumber": "U51909DL2002PTC113666",
+    "buyersTotal": 60,
+    "otherBuyers": [
+     "Mirad Est",
+     "Linvosges",
+     "Jolipa",
+     "Au Maison"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 0,
+    "tier2": [],
+    "flags": [
+     {
+      "kind": "warn",
+      "text": "Tradeverifyd lists the industry as “Nonferrous Metal (except Aluminum) Smelting and Refining”, which doesn't match the clothing it ships. The record may be misclassified, or may mix up several companies with similar names."
+     }
+    ],
+    "summary": "Supplier in Maharashtra shipping handbags & cases to Inditex, mostly leather / textile / plastic. Trades with 60 buyers on record, including Mirad Est and Linvosges."
+   }
   },
   {
    "id": "d34afdd8-8e5a-4bbb-bb36-86ba601d9b89",
@@ -1281,7 +3225,68 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 7,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Jagmini Micro Knit Pvt Ltd",
+    "aliases": [
+     "Jagmini"
+    ],
+    "aliasCount": 2,
+    "industry": "Textile and Fabric Finishing Mills",
+    "legalForm": "Corporation",
+    "lei": "335800YQTBA2ALYE7F46",
+    "leiCount": 1,
+    "companyNumber": "U18101UP1994PTC016374",
+    "buyersTotal": 105,
+    "otherBuyers": [
+     "Gildan",
+     "Conscious Step, LLC",
+     "Osauhing Friends Textile",
+     "Eurofiel Confeccion SA"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 31,
+    "tier2": [
+     {
+      "name": "Zhuji Jinheng Import And Export Co., Ltd",
+      "supplies": [
+       "Textile machinery parts"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Ever Win Labels Company Ltd",
+      "supplies": [
+       "Labels & tags"
+      ],
+      "country": null
+     },
+     {
+      "name": "Brotex (Vietnam) Co. Ltd",
+      "supplies": [
+       "Cotton yarn",
+       "Fibre & yarn"
+      ],
+      "country": "VN"
+     },
+     {
+      "name": "Fame Bros. Ltd",
+      "supplies": [
+       "Costume jewellery"
+      ],
+      "country": null
+     },
+     {
+      "name": "Tyco Integrated Security SL",
+      "supplies": [
+       "Security tags"
+      ],
+      "country": "ES"
+     }
+    ],
+    "flags": [],
+    "summary": "Textile mill in Kanpur shipping hosiery & socks to Inditex. Trades with 105 buyers on record, including Gildan and Conscious Step, LLC."
+   }
   },
   {
    "id": "60cfbba3-a095-49c8-b3a5-d9625e1e2872",
@@ -1306,7 +3311,78 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 4,
    "uncertain": true,
-   "locationMissing": true
+   "locationMissing": true,
+   "details": {
+    "legalName": "Son Ha Investment JSC",
+    "aliases": [
+     "Công Ty CỔ PhẦN ĐẦU TƯ SƠN Hà",
+     "Haso JSC"
+    ],
+    "aliasCount": 13,
+    "industry": "Electrical Contractors and Other Wiring Installation Contractors",
+    "legalForm": "Joint stock company",
+    "lei": null,
+    "leiCount": 0,
+    "companyNumber": "0101206631",
+    "buyersTotal": 50,
+    "otherBuyers": [
+     "AM Retail Group, Inc",
+     "Mystic Enterprises, LLC"
+    ],
+    "inditexBrands": [
+     "Bershka"
+    ],
+    "tier2Total": 67,
+    "tier2": [
+     {
+      "name": "Jiangsu Brother Fortune Garment Co., Ltd",
+      "supplies": [
+       "Synthetic fabric",
+       "Buttons"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "FGL International Co. Ltd",
+      "supplies": [
+       "Synthetic fabric",
+       "Nonwovens",
+       "Buttons"
+      ],
+      "country": null
+     },
+     {
+      "name": "Jiangsu Guotai Huasheng Industrial Co. Ltd",
+      "supplies": [
+       "Synthetic fabric",
+       "Zips"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Snow Coast Holdings Co. Ltd",
+      "supplies": [
+       "Synthetic fabric"
+      ],
+      "country": null
+     },
+     {
+      "name": "Sumec Textile & Light Industry Co. Ltd",
+      "supplies": [
+       "Synthetic fabric",
+       "Knit fabric"
+      ],
+      "country": null
+     }
+    ],
+    "flags": [
+     {
+      "kind": "warn",
+      "text": "Tradeverifyd lists the industry as “Electrical Contractors and Other Wiring Installation Contractors”, which doesn't match the clothing it ships. The record may be misclassified, or may mix up several companies with similar names."
+     }
+    ],
+    "summary": "Supplier in Vietnam shipping suits & trousers and dresses, skirts & trousers to Inditex, mostly synthetic. Trades with 50 buyers on record, including AM Retail Group, Inc and Mystic Enterprises, LLC."
+   }
   },
   {
    "id": "a6e339cc-4003-47df-bdd1-4d55ed0d0128",
@@ -1329,7 +3405,61 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 12,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Shine Collections Pvt Ltd",
+    "aliases": [],
+    "aliasCount": 1,
+    "industry": "All Other Miscellaneous Textile Product Mills",
+    "legalForm": "Corporation",
+    "lei": "9845004EDFI3849O1322",
+    "leiCount": 1,
+    "companyNumber": "U26911DL2000PTC108071",
+    "buyersTotal": 154,
+    "otherBuyers": [
+     "Chutti Pty Ltd",
+     "Fantasia World"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 8,
+    "tier2": [
+     {
+      "name": "Real Packaging Co., Ltd",
+      "supplies": [
+       "Labels & tags"
+      ],
+      "country": null
+     },
+     {
+      "name": "Faf-Sw Co. Ltd",
+      "supplies": [
+       "Packaging"
+      ],
+      "country": null
+     },
+     {
+      "name": "Jun Art Trading Co. Ltd",
+      "supplies": [],
+      "country": null
+     },
+     {
+      "name": "Fowah Manufacturing Co Ltd",
+      "supplies": [
+       "Labels & tags"
+      ],
+      "country": null
+     },
+     {
+      "name": "Yiu Fai Packing Material (Huizhou) Co. Ltd",
+      "supplies": [
+       "Plastic packaging"
+      ],
+      "country": "CN"
+     }
+    ],
+    "flags": [],
+    "summary": "Textile products maker in Noida shipping costume jewellery to Inditex. Trades with 154 buyers on record, including Chutti Pty Ltd and Fantasia World."
+   }
   },
   {
    "id": "8dc65ece-58fc-4c0b-bfc1-d77a71c59216",
@@ -1357,7 +3487,60 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 9,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Super Overseas Pvt Ltd",
+    "aliases": [],
+    "aliasCount": 1,
+    "industry": "Apparel Knitting Mills",
+    "legalForm": "Corporation",
+    "lei": "3358004NIW9F66S38349",
+    "leiCount": 1,
+    "companyNumber": "U52392DL2001PTC113425",
+    "buyersTotal": 159,
+    "otherBuyers": [
+     "Lucky Opco LLC",
+     "Urban Outfitters Wholesale, Inc",
+     "Newtimes Group America Corporation"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 31,
+    "tier2": [
+     {
+      "name": "Ventures Hongkong Limited",
+      "supplies": [
+       "Cotton fabric",
+       "Synthetic fabric",
+       "Knit fabric",
+       "Buttons"
+      ],
+      "country": "HK"
+     },
+     {
+      "name": "Titan Trading HK Corp",
+      "supplies": [
+       "Buttons"
+      ],
+      "country": "HK"
+     },
+     {
+      "name": "M.Y. & Union (HK) Ltd",
+      "supplies": [
+       "Buckles, hooks & eyelets"
+      ],
+      "country": "HK"
+     },
+     {
+      "name": "Seaman Paper Asia Company Limited",
+      "supplies": [
+       "Packaging"
+      ],
+      "country": null
+     }
+    ],
+    "flags": [],
+    "summary": "Garment maker in New Delhi shipping dresses, skirts & trousers and other garments to Inditex, mostly other fibres and cotton. Trades with 159 buyers on record, including Lucky Opco LLC and Urban Outfitters Wholesale, Inc."
+   }
   },
   {
    "id": "877b2e9b-0d16-4678-90b5-4d8ef021cdb3",
@@ -1380,7 +3563,75 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 4,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Dai Lam Garment JSC",
+    "aliases": [
+     "Công Ty CỔ PhẦN May ĐẠI Lâm"
+    ],
+    "aliasCount": 2,
+    "industry": "Apparel Accessories and Other Apparel Manufacturing",
+    "legalForm": "Joint stock company",
+    "lei": null,
+    "leiCount": 0,
+    "companyNumber": "0007997612",
+    "buyersTotal": 46,
+    "otherBuyers": [
+     "Jungwoo Korea Co. Ltd",
+     "Wish Fashion (Shanghai) Co. Ltd"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 77,
+    "tier2": [
+     {
+      "name": "Jungwoo Korea Co. Ltd",
+      "supplies": [
+       "Wool fabric",
+       "Cotton fabric",
+       "Synthetic fabric",
+       "Buttons"
+      ],
+      "country": "KR"
+     },
+     {
+      "name": "DHN Ltd",
+      "supplies": [
+       "Cotton fabric",
+       "Synthetic fabric",
+       "Buttons"
+      ],
+      "country": null
+     },
+     {
+      "name": "E.Land International Fashion (Shanghai) Co",
+      "supplies": [
+       "Linen fabric",
+       "Viscose fabric",
+       "Knit fabric"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "RAON FNC Co. Ltd",
+      "supplies": [
+       "Synthetic fabric",
+       "Buttons"
+      ],
+      "country": null
+     },
+     {
+      "name": "Fashion Group Hyungji Co., Ltd",
+      "supplies": [
+       "Cotton fabric",
+       "Linen fabric",
+       "Viscose fabric"
+      ],
+      "country": null
+     }
+    ],
+    "flags": [],
+    "summary": "Garment maker in Bac Giang shipping coats & jackets to Inditex, mostly cotton. Trades with 46 buyers on record, including Jungwoo Korea Co. Ltd and Wish Fashion (Shanghai) Co. Ltd."
+   }
   },
   {
    "id": "1318e66f-eed4-41e1-9560-d1a6833ba89e",
@@ -1408,7 +3659,48 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 13,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Pee Empro Exports Pvt Ltd",
+    "aliases": [
+     "Pee Empro"
+    ],
+    "aliasCount": 2,
+    "industry": "Cut and Sew Apparel Manufacturing (except Contractors)",
+    "legalForm": "Corporation",
+    "lei": "335800I7ZKFCHWGO9E55",
+    "leiCount": 1,
+    "companyNumber": "U74899DL1980PTC010555",
+    "buyersTotal": 174,
+    "otherBuyers": [
+     "Banana Republic, LLC",
+     "Old Navy LLC",
+     "Gap (Canada) Inc",
+     "The Gap Inc"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 114,
+    "tier2": [
+     {
+      "name": "Max Trade Ltd",
+      "supplies": [
+       "Labels & tags",
+       "Woven labels",
+       "Buttons"
+      ],
+      "country": "HK"
+     },
+     {
+      "name": "Ideal Fastener Asia Ltd",
+      "supplies": [
+       "Zips"
+      ],
+      "country": null
+     }
+    ],
+    "flags": [],
+    "summary": "Garment maker in Faridabad shipping sweaters & cardigans and other garments to Inditex, mostly other fibres and cotton. Trades with 174 buyers on record, including Banana Republic, LLC and Old Navy LLC."
+   }
   },
   {
    "id": "9ccae0b4-a438-4989-8a56-07bca5c1077c",
@@ -1436,7 +3728,64 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 3,
    "uncertain": true,
-   "locationMissing": true
+   "locationMissing": true,
+   "details": {
+    "legalName": "R&B Garment Export JSC",
+    "aliases": [
+     "Công Ty CỔ PhẦN May XuẤT KhẨU R&B"
+    ],
+    "aliasCount": 2,
+    "industry": "Apparel Accessories and Other Apparel Manufacturing",
+    "legalForm": "Joint stock company",
+    "lei": null,
+    "leiCount": 0,
+    "companyNumber": "0017144510",
+    "buyersTotal": 10,
+    "otherBuyers": [
+     "Studio Ray, LLC"
+    ],
+    "inditexBrands": [
+     "Bershka",
+     "Inditex"
+    ],
+    "tier2Total": 23,
+    "tier2": [
+     {
+      "name": "Chico Trading Company Ltd",
+      "supplies": [
+       "Cotton fabric",
+       "Synthetic fabric",
+       "Buttons"
+      ],
+      "country": null
+     },
+     {
+      "name": "Chico Trading Ltd/Snow Coast Holdings Co. Ltd",
+      "supplies": [
+       "Synthetic fabric",
+       "Thread"
+      ],
+      "country": null
+     },
+     {
+      "name": "Chico Trading Ltd/Jiangsu Brother Fortune Garment Co. Ltd",
+      "supplies": [
+       "Cotton fabric",
+       "Synthetic fabric"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Chico Trading Ltd/Ms-Pacific Co. Ltd",
+      "supplies": [
+       "Synthetic fabric"
+      ],
+      "country": null
+     }
+    ],
+    "flags": [],
+    "summary": "Garment maker in Vietnam shipping coats & jackets and suits & trousers to Inditex, mostly synthetic and cotton. Trades with 10 buyers on record, including Studio Ray, LLC."
+   }
   },
   {
    "id": "04810e74-98e9-42ab-9f2c-c9b7ef51ecb9",
@@ -1464,7 +3813,63 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 6,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Saivana Garments Pvt Ltd",
+    "aliases": [],
+    "aliasCount": 1,
+    "industry": "Cut and Sew Apparel Manufacturing (except Contractors)",
+    "legalForm": "Corporation",
+    "lei": "335800TRJYIWGTM8VP26",
+    "leiCount": 1,
+    "companyNumber": "U18209GJ2022PTC154391",
+    "buyersTotal": 370,
+    "otherBuyers": [
+     "Communaute LLC Dba Doen",
+     "Oso & Me",
+     "20Cube Logistics Limited"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 107,
+    "tier2": [
+     {
+      "name": "Labeltex (Hong Kong) Company Ltd",
+      "supplies": [
+       "Labels & tags",
+       "Woven labels"
+      ],
+      "country": "HK"
+     },
+     {
+      "name": "HangZhou Granco Imp&Exp Co.,Ltd",
+      "supplies": [
+       "Silk fabric",
+       "Cotton fabric",
+       "Viscose fabric"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Supertex (Hong Kong) Textile Co. Ltd",
+      "supplies": [
+       "Silk fabric",
+       "Linen fabric",
+       "Viscose fabric"
+      ],
+      "country": "HK"
+     },
+     {
+      "name": "Welfull Group Co., Ltd",
+      "supplies": [
+       "Cotton fabric",
+       "Linen fabric"
+      ],
+      "country": null
+     }
+    ],
+    "flags": [],
+    "summary": "Garment maker in Ahmedabad shipping tracksuits & other garments to Inditex, mostly cotton. Trades with 370 buyers on record, including Communaute LLC Dba Doen and Oso & Me."
+   }
   },
   {
    "id": "5038fe0a-2a52-41b2-ad2a-4675182ef0d3",
@@ -1495,7 +3900,81 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 105,
    "uncertain": true,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Brahmanand Himghar Ltd",
+    "aliases": [
+     "Basant India",
+     "Beckons Industries Ltd",
+     "Bhageria Industries Ltd",
+     "Brushman (India) Ltd"
+    ],
+    "aliasCount": 21,
+    "industry": "Broom, Brush and Mop Manufacturing",
+    "legalForm": "Corporation",
+    "lei": "335800KRCD2SCR583Y74",
+    "leiCount": 3,
+    "companyNumber": "L21017PB1992PLC012574",
+    "buyersTotal": 283,
+    "otherBuyers": [
+     "Landmark Arabia Company",
+     "Rna Resources Group Ltd",
+     "Landmark Group Holding L.L.C"
+    ],
+    "inditexBrands": [
+     "Bershka"
+    ],
+    "tier2Total": 113,
+    "tier2": [
+     {
+      "name": "Changshan Haicheng Chemical Co., Ltd",
+      "supplies": [
+       "Chemicals"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Kempar Energy Pte. Ltd",
+      "supplies": [
+       "Chemicals"
+      ],
+      "country": "SG"
+     },
+     {
+      "name": "Uniter Etiket San.Tic.Ltd.Sti",
+      "supplies": [
+       "Labels & tags",
+       "Woven labels"
+      ],
+      "country": "TR"
+     },
+     {
+      "name": "Tyco Integrated Security SL",
+      "supplies": [
+       "Security tags"
+      ],
+      "country": "ES"
+     },
+     {
+      "name": "China Steel Chemical Corpor",
+      "supplies": [
+       "Chemicals"
+      ],
+      "country": "TW"
+     }
+    ],
+    "flags": [
+     {
+      "kind": "warn",
+      "text": "Tradeverifyd lists the industry as “Broom, Brush and Mop Manufacturing”, which doesn't match the clothing it ships. The record may be misclassified, or may mix up several companies with similar names."
+     },
+     {
+      "kind": "warn",
+      "text": "This record has 21 different names on file, and some look like different businesses, so it may merge several companies. Buyers and suppliers below may not all belong to the company that supplies Inditex."
+     }
+    ],
+    "summary": "Supplier in Paschim Midnapore shipping dresses, skirts & trousers and tracksuits & other garments to Inditex, mostly cotton and other fibres. Trades with 283 buyers on record, including Landmark Arabia Company and Rna Resources Group Ltd."
+   }
   },
   {
    "id": "403e12d3-9615-4b67-98b3-aebc187d1e62",
@@ -1521,7 +4000,81 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 13,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Viet Thai Garment Export JSC",
+    "aliases": [
+     "Công Ty CỔ PhẦN May XuẤT KhẨU ViỆT Thái",
+     "Vitexco",
+     "Van Xuan Textile and Garment Export Company Ltd"
+    ],
+    "aliasCount": 25,
+    "industry": "Fiber, Yarn, and Thread Mills",
+    "legalForm": "Joint stock company",
+    "lei": null,
+    "leiCount": 0,
+    "companyNumber": "0101439114",
+    "buyersTotal": 154,
+    "otherBuyers": [
+     "Eddie Bauer LLC",
+     "Amazon.com, Inc",
+     "AM Retail Group, Inc",
+     "Mahco"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 467,
+    "tier2": [
+     {
+      "name": "J-Land Korea Co., Ltd",
+      "supplies": [
+       "Cotton fabric",
+       "Synthetic fabric",
+       "Knit fabric",
+       "Buttons"
+      ],
+      "country": "KR"
+     },
+     {
+      "name": "East Tung Co. Ltd",
+      "supplies": [
+       "Synthetic fabric",
+       "Buttons"
+      ],
+      "country": null
+     },
+     {
+      "name": "Jiangsu Brother Fortune Garment Co., Ltd",
+      "supplies": [
+       "Synthetic fabric",
+       "Zips"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Bosideng International Fashion Ltd/SML Vietnam Branding Co Ltd",
+      "supplies": [
+       "Labels & tags",
+       "Woven labels"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Changshu Bosideng Import & Export Co., Ltd",
+      "supplies": [
+       "Down & feathers",
+       "Synthetic fabric"
+      ],
+      "country": "CN"
+     }
+    ],
+    "flags": [
+     {
+      "kind": "warn",
+      "text": "This record has 25 different names on file, and some look like different businesses, so it may merge several companies. Buyers and suppliers below may not all belong to the company that supplies Inditex."
+     }
+    ],
+    "summary": "Textile mill in Thai Binh shipping coats & jackets and suits & trousers to Inditex, mostly synthetic. Trades with 154 buyers on record, including Eddie Bauer LLC and Amazon.com, Inc."
+   }
   },
   {
    "id": "174a410d-73bb-450b-994f-4f061a9f8307",
@@ -1544,7 +4097,76 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 3,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Phu Tho Garment Company Ltd",
+    "aliases": [
+     "Phu Tho Co. Ltd"
+    ],
+    "aliasCount": 2,
+    "industry": "Apparel Accessories and Other Apparel Manufacturing",
+    "legalForm": "Corporation",
+    "lei": null,
+    "leiCount": 0,
+    "companyNumber": "2600339870",
+    "buyersTotal": 63,
+    "otherBuyers": [
+     "Jadam Trading Co., Ltd",
+     "Kevin D & M Co., Ltd",
+     "Conifer Travel Company Ltd",
+     "Mango Mng S.A"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 30,
+    "tier2": [
+     {
+      "name": "Kevin D & M Co., Ltd",
+      "supplies": [
+       "Down & feathers",
+       "Cotton fabric",
+       "Synthetic fabric",
+       "Buttons"
+      ],
+      "country": null
+     },
+     {
+      "name": "Jadam Trading Co., Ltd",
+      "supplies": [
+       "Cotton fabric",
+       "Synthetic fabric",
+       "Buttons"
+      ],
+      "country": null
+     },
+     {
+      "name": "Nova Mode Co. Ltd",
+      "supplies": [
+       "Synthetic fabric",
+       "Zips"
+      ],
+      "country": null
+     },
+     {
+      "name": "INTEC",
+      "supplies": [
+       "Wool fabric",
+       "Synthetic fabric",
+       "Buttons"
+      ],
+      "country": null
+     },
+     {
+      "name": "Global Garment Sourcing Co Ltd",
+      "supplies": [
+       "Synthetic fabric",
+       "Nonwovens"
+      ],
+      "country": null
+     }
+    ],
+    "flags": [],
+    "summary": "Garment maker in Phu Tho shipping suits & trousers to Inditex, mostly synthetic. Trades with 63 buyers on record, including Jadam Trading Co., Ltd and Kevin D & M Co., Ltd."
+   }
   },
   {
    "id": "7272c01b-6ecc-4c36-92a1-a1835701af85",
@@ -1567,7 +4189,29 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 8,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Plasma Impex Inc",
+    "aliases": [],
+    "aliasCount": 1,
+    "industry": "Textile and Fabric Finishing Mills",
+    "legalForm": "Proprietorship",
+    "lei": "6488ISVGH950P3P97628",
+    "leiCount": 1,
+    "companyNumber": "0508079314",
+    "buyersTotal": 78,
+    "otherBuyers": [
+     "El Corte Ingles SA",
+     "Nicoli Network SL",
+     "Jan Y Alex SL",
+     "Moda Joven Sfera Mexico, S.A. de C.V"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 0,
+    "tier2": [],
+    "flags": [],
+    "summary": "Textile mill in Noida shipping costume jewellery to Inditex. Trades with 78 buyers on record, including El Corte Ingles SA and Nicoli Network SL."
+   }
   },
   {
    "id": "f931142a-6fff-4b8b-8173-e66b3294e415",
@@ -1594,7 +4238,58 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 12,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Best Cotton Mills Pvt Ltd",
+    "aliases": [],
+    "aliasCount": 1,
+    "industry": "Fiber, Yarn, and Thread Mills",
+    "legalForm": "Corporation",
+    "lei": "3358006B2933CLAW1B67",
+    "leiCount": 1,
+    "companyNumber": "U17115TZ1989PTC002417",
+    "buyersTotal": 19,
+    "otherBuyers": [
+     "Societe D Investissement Et de Pro",
+     "Fashion Asia Ltd",
+     "Divisions Incorporated",
+     "Sumeru Industries Fze"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 33,
+    "tier2": [
+     {
+      "name": "Murata Parts Sales Ltd",
+      "supplies": [
+       "Textile machinery parts"
+      ],
+      "country": "JP"
+     },
+     {
+      "name": "Rieter AG",
+      "supplies": [
+       "Textile machinery parts"
+      ],
+      "country": "CH"
+     },
+     {
+      "name": "Rieter Components Germany GmbH",
+      "supplies": [
+       "Rubber"
+      ],
+      "country": "DE"
+     },
+     {
+      "name": "Norbert Frosch",
+      "supplies": [
+       "Textile machinery parts"
+      ],
+      "country": null
+     }
+    ],
+    "flags": [],
+    "summary": "Textile mill in Tiruppur shipping t-shirts & vests and suits & trousers to Inditex, mostly cotton and other fibres. Trades with 19 buyers on record, including Societe D Investissement Et de Pro and Fashion Asia Ltd."
+   }
   },
   {
    "id": "ee0b3dc3-0931-4306-90aa-5dd38145b508",
@@ -1617,7 +4312,61 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 2,
    "uncertain": true,
-   "locationMissing": true
+   "locationMissing": true,
+   "details": {
+    "legalName": "Herrhil Charm Company Ltd",
+    "aliases": [],
+    "aliasCount": 1,
+    "industry": "Broadwoven Fabric Mills",
+    "legalForm": "Corporation",
+    "lei": null,
+    "leiCount": 0,
+    "companyNumber": "2600668748",
+    "buyersTotal": 23,
+    "otherBuyers": [
+     "COBO CLOTHING, INC / Gloria Jeans",
+     "Design Collection, Inc",
+     "Cobo Clothing, Inc / Mango Punto Fa"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 47,
+    "tier2": [
+     {
+      "name": "Cobo Clothing, Inc",
+      "supplies": [
+       "Synthetic fabric",
+       "Viscose fabric",
+       "Buttons"
+      ],
+      "country": null
+     },
+     {
+      "name": "Shaoxing Qianqi Textile Co., Ltd",
+      "supplies": [
+       "Synthetic fabric"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Shaoxing Junno Textile Co. Ltd",
+      "supplies": [
+       "Synthetic fabric",
+       "Knit fabric"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Cobo Clothing, Inc/ Fast East International Ltd",
+      "supplies": [
+       "Synthetic fabric",
+       "Nonwovens"
+      ],
+      "country": null
+     }
+    ],
+    "flags": [],
+    "summary": "Textile mill in Vietnam shipping dresses, skirts & trousers to Inditex, mostly synthetic. Trades with 23 buyers on record, including COBO CLOTHING, INC / Gloria Jeans and Design Collection, Inc."
+   }
   },
   {
    "id": "5b1c244f-4aaf-4221-a60c-53fe35b2f5b6",
@@ -1641,7 +4390,75 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 5,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Hung Binh Garment JSC",
+    "aliases": [
+     "Công Ty CỔ PhẦN May HƯNg Bình"
+    ],
+    "aliasCount": 2,
+    "industry": "Cut and Sew Apparel Manufacturing (except Contractors)",
+    "legalForm": "Joint stock company",
+    "lei": null,
+    "leiCount": 0,
+    "companyNumber": "1001092774",
+    "buyersTotal": 52,
+    "otherBuyers": [
+     "Motives International (Hong Kong) Ltd",
+     "Mango Mng S.A",
+     "Primark Ltd",
+     "J Sainsbury PLC"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 172,
+    "tier2": [
+     {
+      "name": "Motives International Pte. Ltd",
+      "supplies": [
+       "Cotton fabric",
+       "Synthetic fabric",
+       "Buttons"
+      ],
+      "country": "SG"
+     },
+     {
+      "name": "Mango Mng S.A",
+      "supplies": [
+       "Cotton fabric",
+       "Synthetic fabric",
+       "Knit fabric"
+      ],
+      "country": "ES"
+     },
+     {
+      "name": "Carmel Clothing Europe Ltd",
+      "supplies": [
+       "Synthetic fabric",
+       "Viscose fabric",
+       "Knit fabric"
+      ],
+      "country": null
+     },
+     {
+      "name": "Sae-A Trading Co. Ltd",
+      "supplies": [
+       "Synthetic fabric",
+       "Buttons"
+      ],
+      "country": "KR"
+     },
+     {
+      "name": "CHARGEURS PCC Asia Limited",
+      "supplies": [
+       "Nonwovens",
+       "Coated fabric & interlining"
+      ],
+      "country": null
+     }
+    ],
+    "flags": [],
+    "summary": "Garment maker in Thai Binh shipping suits & trousers to Inditex, mostly synthetic. Trades with 52 buyers on record, including Motives International (Hong Kong) Ltd and Mango Mng S.A."
+   }
   },
   {
    "id": "1d25c005-d80e-4f34-8357-ebb0745564d8",
@@ -1665,7 +4482,72 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 7,
    "uncertain": true,
-   "locationMissing": true
+   "locationMissing": true,
+   "details": {
+    "legalName": "Pearl Garment Vietnam JSC",
+    "aliases": [],
+    "aliasCount": 1,
+    "industry": null,
+    "legalForm": null,
+    "lei": null,
+    "leiCount": 0,
+    "companyNumber": null,
+    "buyersTotal": 92,
+    "otherBuyers": [
+     "Old Navy LLC",
+     "Banana Republic, LLC",
+     "Gap (Canada) Inc",
+     "Nova Vision Korea Co., Ltd"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 374,
+    "tier2": [
+     {
+      "name": "Ha Hae Corporation",
+      "supplies": [
+       "Cotton fabric",
+       "Synthetic fabric",
+       "Buttons"
+      ],
+      "country": null
+     },
+     {
+      "name": "JCON Corporation",
+      "supplies": [
+       "Wool fabric",
+       "Linen fabric",
+       "Synthetic fabric"
+      ],
+      "country": null
+     },
+     {
+      "name": "Nova Vision Korea Co., Ltd",
+      "supplies": [
+       "Down & feathers",
+       "Synthetic fabric"
+      ],
+      "country": "KR"
+     },
+     {
+      "name": "Ts F&G Co, .Ltd",
+      "supplies": [
+       "Wool fabric",
+       "Synthetic fabric"
+      ],
+      "country": null
+     },
+     {
+      "name": "MFCINT Co. Ltd",
+      "supplies": [
+       "Down & feathers",
+       "Synthetic fabric"
+      ],
+      "country": null
+     }
+    ],
+    "flags": [],
+    "summary": "Supplier in Vietnam shipping suits & trousers to Inditex, mostly synthetic. Trades with 92 buyers on record, including Old Navy LLC and Banana Republic, LLC."
+   }
   },
   {
    "id": "828c113d-9a61-4e44-bde8-ef5a0b48bd68",
@@ -1688,7 +4570,70 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 11,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Roj Leather Exports Pvt Ltd",
+    "aliases": [],
+    "aliasCount": 1,
+    "industry": "Other Leather and Allied Product Manufacturing",
+    "legalForm": "Corporation",
+    "lei": "335800L4978ELZLMDQ17",
+    "leiCount": 1,
+    "companyNumber": "U52599TN1991PTC020688",
+    "buyersTotal": 41,
+    "otherBuyers": [
+     "DS Fashion Group",
+     "Next Retail Ltd",
+     "Moss Bros Group Ltd"
+    ],
+    "inditexBrands": [
+     "Massimo Dutti"
+    ],
+    "tier2Total": 35,
+    "tier2": [
+     {
+      "name": "Shanghai Weixing Garment Accessories Co. Ltd",
+      "supplies": [
+       "Buttons",
+       "Zips"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "IDT Etiket Matbaacilik",
+      "supplies": [
+       "Labels & tags",
+       "Woven labels"
+      ],
+      "country": "TR"
+     },
+     {
+      "name": "Kumsung A & K Corp",
+      "supplies": [
+       "Buckles, hooks & eyelets",
+       "Buttons"
+      ],
+      "country": "KR"
+     },
+     {
+      "name": "Zhejiang Weixing Imp.& Exp Co., Ltd",
+      "supplies": [
+       "Buckles, hooks & eyelets",
+       "Zips"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Mainetti R2 (Shanghai) Limited",
+      "supplies": [
+       "Plastic trims & hangers"
+      ],
+      "country": "CN"
+     }
+    ],
+    "flags": [],
+    "summary": "Leather goods maker in Chennai shipping leather apparel & belts to Inditex, mostly leather. Trades with 41 buyers on record, including DS Fashion Group and Next Retail Ltd."
+   }
   },
   {
    "id": "e4a64695-afbe-4524-88db-2e286ce5619b",
@@ -1714,7 +4659,55 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 4,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Duc Huy Garment Export Company Ltd",
+    "aliases": [],
+    "aliasCount": 1,
+    "industry": "Apparel Accessories and Other Apparel Manufacturing",
+    "legalForm": "Corporation",
+    "lei": null,
+    "leiCount": 0,
+    "companyNumber": "1001043706",
+    "buyersTotal": 41,
+    "otherBuyers": [
+     "J&B Co., Ltd",
+     "TP Nadia Co., Ltd",
+     "Kido Industrial Co. Ltd",
+     "Yeonys Co. Ltd"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 48,
+    "tier2": [
+     {
+      "name": "JCON Corporation",
+      "supplies": [
+       "Down & feathers",
+       "Cotton fabric",
+       "Synthetic fabric",
+       "Buttons"
+      ],
+      "country": null
+     },
+     {
+      "name": "TP Nadia Co., Ltd",
+      "supplies": [
+       "Nonwovens",
+       "Coated fabric & interlining"
+      ],
+      "country": null
+     },
+     {
+      "name": "JCON Corporation/Poongchin Korea Co. Ltd",
+      "supplies": [
+       "Nonwovens"
+      ],
+      "country": "KR"
+     }
+    ],
+    "flags": [],
+    "summary": "Garment maker in Thai Binh shipping suits & trousers and coats & jackets to Inditex, mostly synthetic. Trades with 41 buyers on record, including J&B Co., Ltd and TP Nadia Co., Ltd."
+   }
   },
   {
    "id": "db9aa7a2-52f4-4040-b12c-b3eb361db31b",
@@ -1739,7 +4732,59 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 25,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Richa Global Exports Pvt Ltd",
+    "aliases": [
+     "Richa Global"
+    ],
+    "aliasCount": 2,
+    "industry": "Cut and Sew Apparel Manufacturing (except Contractors)",
+    "legalForm": "Partnership",
+    "lei": "335800BFGX6GRY9NQK41",
+    "leiCount": 1,
+    "companyNumber": "U14101DL2005PTC137669",
+    "buyersTotal": 566,
+    "otherBuyers": [
+     "Last Brand Inc",
+     "Belk International Inc",
+     "Marks and Spencer P.L.C",
+     "Premium Brands Opco LLC"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 427,
+    "tier2": [
+     {
+      "name": "Prologic (HK) Ltd",
+      "supplies": [
+       "Labels & tags",
+       "Synthetic fabric",
+       "Buttons"
+      ],
+      "country": "HK"
+     },
+     {
+      "name": "CHARGEURS PCC Asia Limited",
+      "supplies": [
+       "Synthetic fabric",
+       "Nonwovens",
+       "Coated fabric & interlining"
+      ],
+      "country": null
+     },
+     {
+      "name": "Standard Jade Ltd",
+      "supplies": [
+       "Lace",
+       "Knit fabric",
+       "Buttons"
+      ],
+      "country": null
+     }
+    ],
+    "flags": [],
+    "summary": "Garment maker in Noida shipping tracksuits & other garments to Inditex, mostly cotton and other fibres. Trades with 566 buyers on record, including Last Brand Inc and Belk International Inc."
+   }
   },
   {
    "id": "fd2cdeb3-c5b0-462d-9cfe-fd64ce296572",
@@ -1767,7 +4812,71 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 196,
    "uncertain": true,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Zodiac Clothing Company Ltd",
+    "aliases": [
+     "Zodiac Ventures Ltd",
+     "Zodiac Energy Ltd"
+    ],
+    "aliasCount": 18,
+    "industry": "Cut and Sew Apparel Manufacturing (except Contractors)",
+    "legalForm": "Corporation",
+    "lei": "335800FOQFOW3WWDNL61",
+    "leiCount": 4,
+    "companyNumber": null,
+    "buyersTotal": 224,
+    "otherBuyers": [
+     "Guess , Inc",
+     "E5 Fashion BV",
+     "Distribuidora Liverpool, S.A. de C.V",
+     "AM Retail Group, Inc"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 150,
+    "tier2": [
+     {
+      "name": "Orient International Holding Shanghai Foreign Trade",
+      "supplies": [
+       "Cotton fabric",
+       "Linen fabric"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Continental Textile Co. Ltd",
+      "supplies": [
+       "Cotton fabric"
+      ],
+      "country": null
+     },
+     {
+      "name": "Paxar (China) Ltd",
+      "supplies": [
+       "Woven labels"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Avery Dennison Hong Kong B V",
+      "supplies": [
+       "Labels & tags",
+       "Woven labels"
+      ],
+      "country": "HK"
+     },
+     {
+      "name": "Cotonificio Albini SPA",
+      "supplies": [
+       "Cotton fabric",
+       "Linen fabric"
+      ],
+      "country": "IT"
+     }
+    ],
+    "flags": [],
+    "summary": "Garment maker in Mumbai shipping shirts to Inditex, mostly cotton. Trades with 224 buyers on record, including Guess , Inc and E5 Fashion BV."
+   }
   },
   {
    "id": "d1b6f2ee-db1c-4db0-8a17-a143ea0c19ae",
@@ -1792,7 +4901,66 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 7,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Strange Exports Pvt Ltd",
+    "aliases": [],
+    "aliasCount": 1,
+    "industry": "Textile and Fabric Finishing Mills",
+    "legalForm": "Corporation",
+    "lei": "8945006M1MKOVYMA3141",
+    "leiCount": 1,
+    "companyNumber": "U51909DL2003PTC121557",
+    "buyersTotal": 105,
+    "otherBuyers": [
+     "Qvc, Inc",
+     "Monsoon Brands Ltd",
+     "Mango Mng S.A"
+    ],
+    "inditexBrands": [
+     "Pull&Bear"
+    ],
+    "tier2Total": 9,
+    "tier2": [
+     {
+      "name": "Tyco Integrated Security SL",
+      "supplies": [
+       "Security tags"
+      ],
+      "country": "ES"
+     },
+     {
+      "name": "R-Pac Vietnam Ltd",
+      "supplies": [
+       "Woven labels"
+      ],
+      "country": "VN"
+     },
+     {
+      "name": "Shanghai Northern Linen Industrial Co., Ltd",
+      "supplies": [
+       "Linen fabric"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "S-Mac Ht Vina Company Ltd",
+      "supplies": [
+       "Electronics"
+      ],
+      "country": "VN"
+     },
+     {
+      "name": "Jiangsu Yueye Textile Co., Ltd",
+      "supplies": [
+       "Cotton fabric"
+      ],
+      "country": "CN"
+     }
+    ],
+    "flags": [],
+    "summary": "Textile mill in Noida shipping babywear to Inditex, mostly cotton. Trades with 105 buyers on record, including Qvc, Inc and Monsoon Brands Ltd."
+   }
   },
   {
    "id": "5e45ae17-e63e-4313-a2a9-42b25e544df6",
@@ -1816,7 +4984,65 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 0,
    "uncertain": true,
-   "locationMissing": true
+   "locationMissing": true,
+   "details": {
+    "legalName": "Minh Minh Garment Company Ltd - ATC",
+    "aliases": [],
+    "aliasCount": 1,
+    "industry": null,
+    "legalForm": null,
+    "lei": null,
+    "leiCount": 0,
+    "companyNumber": null,
+    "buyersTotal": 84,
+    "otherBuyers": [
+     "Cong Ty Tnhh San Xuat Upgain (Viet Nam)",
+     "J-Land Korea Co. Ltd. / Modes Moose Inc",
+     "Shinsegae International Ltd",
+     "Ha Hae Corporation"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 257,
+    "tier2": [
+     {
+      "name": "Cong Ty Tnhh San Xuat Upgain (Viet Nam)",
+      "supplies": [
+       "Cotton fabric",
+       "Linen fabric",
+       "Synthetic fabric",
+       "Buttons"
+      ],
+      "country": "VN"
+     },
+     {
+      "name": "Jiangsu Brother Fortune Garment Co., Ltd",
+      "supplies": [
+       "Synthetic fabric",
+       "Knit fabric",
+       "Buttons"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Araum Corporation",
+      "supplies": [
+       "Synthetic fabric",
+       "Buttons"
+      ],
+      "country": null
+     },
+     {
+      "name": "Jiangsu Soho Technology Trading Co., Ltd",
+      "supplies": [
+       "Synthetic fabric",
+       "Knit fabric"
+      ],
+      "country": "CN"
+     }
+    ],
+    "flags": [],
+    "summary": "Supplier in Vietnam shipping coats & jackets to Inditex, mostly synthetic. Trades with 84 buyers on record, including Cong Ty Tnhh San Xuat Upgain (Viet Nam) and J-Land Korea Co. Ltd. / Modes Moose Inc."
+   }
   },
   {
    "id": "9ab59d53-4af6-4e65-a21c-44f44e03c7ea",
@@ -1839,7 +5065,58 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 5,
    "uncertain": true,
-   "locationMissing": true
+   "locationMissing": true,
+   "details": {
+    "legalName": "Sweaters India Pvt Ltd",
+    "aliases": [],
+    "aliasCount": 1,
+    "industry": "Textile and Fabric Finishing Mills",
+    "legalForm": "Corporation",
+    "lei": "3358002VC7THTXJXSU81",
+    "leiCount": 1,
+    "companyNumber": "U17121TZ2009PTC015528",
+    "buyersTotal": 24,
+    "otherBuyers": [
+     "License Factory GmbH",
+     "NV Fabrimode",
+     "SLT Austria GmbH"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 6,
+    "tier2": [
+     {
+      "name": "Nantong Xuanfei International Trading Co Ltd",
+      "supplies": [
+       "Cotton yarn",
+       "Fibre & yarn"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "Best Pacific Textiles Lanka (Pvt) Ltd",
+      "supplies": [
+       "Knit fabric"
+      ],
+      "country": "LK"
+     },
+     {
+      "name": "R-Pac Vietnam Ltd",
+      "supplies": [
+       "Embroidery"
+      ],
+      "country": "VN"
+     },
+     {
+      "name": "Shima Seiki Mfg. Ltd",
+      "supplies": [
+       "Textile machinery"
+      ],
+      "country": "JP"
+     }
+    ],
+    "flags": [],
+    "summary": "Textile mill in India shipping sweaters & cardigans to Inditex, mostly wool. Trades with 24 buyers on record, including License Factory GmbH and NV Fabrimode."
+   }
   },
   {
    "id": "a6a4bc49-bbc8-473c-96d2-e6a225d60255",
@@ -1862,7 +5139,51 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 13,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Trend Setters International",
+    "aliases": [],
+    "aliasCount": 1,
+    "industry": "Cut and Sew Apparel Manufacturing (except Contractors)",
+    "legalForm": "Partnership",
+    "lei": "335800GCM5CXDQVBNR79",
+    "leiCount": 3,
+    "companyNumber": "0506061132",
+    "buyersTotal": 182,
+    "otherBuyers": [
+     "Suburbia, S. de R.L. de C.V",
+     "Distribuidora Liverpool S.A. de C.V"
+    ],
+    "inditexBrands": [
+     "Inditex"
+    ],
+    "tier2Total": 24,
+    "tier2": [
+     {
+      "name": "Zhejiang Weixing Imp and Exp Co",
+      "supplies": [
+       "Buckles, hooks & eyelets"
+      ],
+      "country": "CN"
+     },
+     {
+      "name": "M.Y. & Union (HK) Ltd",
+      "supplies": [
+       "Buckles, hooks & eyelets"
+      ],
+      "country": "HK"
+     },
+     {
+      "name": "Yancheng Jingwei Int'L Co.Ltd",
+      "supplies": [
+       "Woven labels"
+      ],
+      "country": "CN"
+     }
+    ],
+    "flags": [],
+    "summary": "Garment maker in Gurugram shipping babywear to Inditex, mostly cotton. Trades with 182 buyers on record, including Suburbia, S. de R.L. de C.V and Distribuidora Liverpool S.A. de C.V."
+   }
   },
   {
    "id": "0ea97444-91fd-4fdd-a663-a4acc72714ba",
@@ -1885,7 +5206,76 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 982,
    "uncertain": true,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Vardhman Enterprises",
+    "aliases": [
+     "Vardhman Textiles Ltd",
+     "Vardhman Special Steels Ltd",
+     "Vardhman Yarns and Threads Ltd",
+     "Vardhman Developers Ltd"
+    ],
+    "aliasCount": 68,
+    "industry": "Fiber, Yarn, and Thread Mills",
+    "legalForm": "Partnership",
+    "lei": "2549008RYM2B5WJ3TG51",
+    "leiCount": 5,
+    "companyNumber": null,
+    "buyersTotal": 2093,
+    "otherBuyers": [
+     "Michaels Global Sourcing, LLC",
+     "Walmart Inc",
+     "Refat Garments Ltd"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 1350,
+    "tier2": [
+     {
+      "name": "Murata Parts Sales Ltd",
+      "supplies": [
+       "Textile machinery parts"
+      ],
+      "country": "JP"
+     },
+     {
+      "name": "Picanol Nv",
+      "supplies": [
+       "Textile machinery",
+       "Textile machinery parts"
+      ],
+      "country": "BE"
+     },
+     {
+      "name": "Toyota Industries Corporation",
+      "supplies": [
+       "Textile machinery parts"
+      ],
+      "country": "JP"
+     },
+     {
+      "name": "Rieter AG",
+      "supplies": [
+       "Textile machinery",
+       "Textile machinery parts"
+      ],
+      "country": "CH"
+     },
+     {
+      "name": "Tsudakoma Corp",
+      "supplies": [
+       "Textile machinery"
+      ],
+      "country": "JP"
+     }
+    ],
+    "flags": [
+     {
+      "kind": "warn",
+      "text": "This record has 68 different names on file, and some look like different businesses, so it may merge several companies. Buyers and suppliers below may not all belong to the company that supplies Inditex."
+     }
+    ],
+    "summary": "Textile mill in Dungarpur shipping cotton fabric to Inditex, mostly cotton. Trades with 2,093 buyers on record, including Michaels Global Sourcing, LLC and Walmart Inc."
+   }
   },
   {
    "id": "94b530dc-c881-473d-a6c6-34aa1e2ab83d",
@@ -1911,7 +5301,38 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 1,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Usha Garments Manufacturing Company",
+    "aliases": [],
+    "aliasCount": 1,
+    "industry": null,
+    "legalForm": null,
+    "lei": null,
+    "leiCount": 0,
+    "companyNumber": null,
+    "buyersTotal": 13,
+    "otherBuyers": [
+     "El Corte Ingles SA",
+     "Next Retail Ltd",
+     "Scalpers Fashion SL"
+    ],
+    "inditexBrands": [
+     "Inditex"
+    ],
+    "tier2Total": 1,
+    "tier2": [
+     {
+      "name": "Anosmaye Comercial Buttons and Service",
+      "supplies": [
+       "Buttons"
+      ],
+      "country": null
+     }
+    ],
+    "flags": [],
+    "summary": "Supplier in Mumbai shipping shirts to Inditex, mostly cotton. Trades with 13 buyers on record, including El Corte Ingles SA and Next Retail Ltd."
+   }
   },
   {
    "id": "04cd8ed9-f18d-4c48-bda5-99160cc96dd9",
@@ -1938,7 +5359,55 @@ window.SUPPLY_DATA = {
    ],
    "addressCount": 6,
    "uncertain": false,
-   "locationMissing": false
+   "locationMissing": false,
+   "details": {
+    "legalName": "Unboxrobotics Labs Pvt Ltd",
+    "aliases": [],
+    "aliasCount": 1,
+    "industry": "Offices of Lawyers",
+    "legalForm": "Corporation",
+    "lei": "894500B4MV3V2U501H50",
+    "leiCount": 1,
+    "companyNumber": "U72900KA2019PTC124451",
+    "buyersTotal": 41,
+    "otherBuyers": [
+     "Mondial Relay",
+     "Saiet Engineering SRL",
+     "Omtegra Otomasyon"
+    ],
+    "inditexBrands": [],
+    "tier2Total": 36,
+    "tier2": [
+     {
+      "name": "Mouser Electronics Inc",
+      "supplies": [
+       "Electronics"
+      ],
+      "country": "US"
+     },
+     {
+      "name": "Winroller International Trading Co Ltd",
+      "supplies": [
+       "Machinery"
+      ],
+      "country": null
+     },
+     {
+      "name": "Ningbo Alline Elec.Tech.Co.Ltd",
+      "supplies": [
+       "Electronics"
+      ],
+      "country": "CN"
+     }
+    ],
+    "flags": [
+     {
+      "kind": "info",
+      "text": "Warehouse robotics maker: supplies sorting robots and equipment to Inditex, not clothing."
+     }
+    ],
+    "summary": "Robotics company in Bengaluru supplying warehouse sorting robots and equipment to Inditex. Trades with 41 buyers on record, including Mondial Relay and Saiet Engineering SRL."
+   }
   }
  ]
 };

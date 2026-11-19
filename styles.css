@@ -180,3 +180,60 @@ select { width: auto; padding: 4px 8px; font-size: 12px; }
   }
   h1 { font-size: 21px; }
 }
+
+/* ---------- supplier details ---------- */
+#detail h3 {
+  margin: 18px 0 8px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+#detail .summary { margin: 10px 0 4px; font-size: 13px; line-height: 1.5; }
+#detail .note.info { color: var(--high); }
+#detail .muted, .muted { color: var(--muted); }
+#detail .small { font-size: 12px; margin: 6px 0; }
+#detail .big-num { margin: 0 0 6px; font-size: 13px; }
+#detail .big-num b { font-size: 18px; }
+#detail dd code { font-size: 11px; }
+#detail a { color: var(--accent); text-decoration: none; word-break: break-all; }
+#detail a:hover { text-decoration: underline; }
+#detail .links { margin: 16px 0 0; font-size: 12px; }
+.pills { list-style: none; padding: 0; margin: 4px 0 8px; display: flex; flex-wrap: wrap; gap: 6px; }
+.pills li { padding: 3px 9px; border-radius: 999px; font-size: 11px; background: var(--chip); border: 1px solid var(--border); }
+.tier2 { list-style: none; padding: 0; margin: 0; font-size: 12px; }
+.tier2 li {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1px 10px;
+  padding: 7px 0;
+  border-bottom: 1px solid var(--border);
+}
+.tier2 .t2-name { font-weight: 500; overflow-wrap: anywhere; }
+.tier2 .t2-sub { grid-column: 1; color: var(--muted); }
+.tier2 .t2-country { grid-column: 2; grid-row: 1 / span 2; align-self: center; color: var(--accent); white-space: nowrap; }
+
+/* ---------- Inditex overview ---------- */
+.link-btn {
+  margin: -8px 0 16px; padding: 0; border: 0; background: none; cursor: pointer;
+  font: inherit; font-size: 13px; color: var(--accent);
+}
+.link-btn:hover { text-decoration: underline; }
+#detail.overview h2 { font-size: 19px; }
+#detail .eyebrow { margin: 0 0 4px; }
+.ov-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 14px 0 6px; }
+.ov-stats div { padding: 10px; border: 1px solid var(--border); border-radius: 10px; }
+.ov-stats b { display: block; font-size: 18px; color: var(--accent); }
+.ov-stats span { font-size: 11px; color: var(--muted); }
+.flow { list-style: none; padding: 0; margin: 0; position: relative; }
+.flow::before { content: ""; position: absolute; left: 11px; top: 12px; bottom: 12px; width: 1px; background: var(--border); }
+.flow li { display: flex; gap: 12px; padding: 0 0 14px; position: relative; }
+.flow .step-n {
+  flex: 0 0 24px; height: 24px; border-radius: 50%; display: grid; place-items: center;
+  font-size: 12px; font-weight: 600; background: var(--accent); color: #111;
+}
+.flow b { font-size: 13px; }
+.flow p { margin: 3px 0 0; font-size: 12px; line-height: 1.5; color: var(--muted); }
+.plain { padding-left: 16px; margin: 0; font-size: 12px; line-height: 1.5; }
+.plain li { margin-bottom: 8px; }
