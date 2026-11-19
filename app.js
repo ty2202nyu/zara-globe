@@ -243,7 +243,7 @@
     const t2Countries = tally(tier2.map((t) => t.country)).slice(0, 5)
       .map(([c, n]) => `${esc(COUNTRY_NAMES[c] || c)} <span class="muted">${n}</span>`).join(" · ");
     const t2Goods = tally(tier2.flatMap((t) => t.supplies)).slice(0, 6).map(([g]) => esc(g.toLowerCase())).join(", ");
-    const fibres = tally(suppliers.flatMap((s) => s.materials)).filter(([m]) => !["Plastic", "Paper", "Base metal"].includes(m))
+    const fibers = tally(suppliers.flatMap((s) => s.materials)).filter(([m]) => !["Plastic", "Paper", "Base metal"].includes(m))
       .slice(0, 4).map(([m, n]) => `${esc(m)} <span class="muted">${n}</span>`).join(" · ");
     const tagged = suppliers.filter((s) => s.hs.some((h) => h.startsWith("8531"))).length;
     const shared = withD.filter((s) => s.details.buyersTotal > 100).length;
@@ -266,10 +266,10 @@
 
       <h3>How materials become a Zara garment</h3>
       <ol class="flow">
-        ${step(1, "Fibre and yarn", `Cotton, polyester, viscose, wool and other fibres are spun into yarn. Inditex doesn't usually buy at this stage. Its suppliers' suppliers do.`)}
+        ${step(1, "Fiber and yarn", `Cotton, polyester, viscose, wool and other fibers are spun into yarn. Inditex doesn't usually buy at this stage. Its suppliers' suppliers do.`)}
         ${step(2, "Fabric and trims (tier 2)", `Mills weave or knit the yarn into fabric, and other firms make labels, buttons and zips. Across the 57 suppliers here, their own suppliers are mostly in ${t2Countries || "Asia"}, and ship ${t2Goods || "fabric and trims"}.`)}
-        ${step(3, "Garment factories (tier 1)", `Factories cut, sew and finish the garments. These are the ${suppliers.length} vendors on the globe, in India and Vietnam. Their main fibres: ${fibres}.`)}
-        ${step(4, "Tagged and shipped to Spain", `Before shipping, factories attach Inditex's security and RFID tags. ${tagged} of the ${suppliers.length} vendors here declare security-tag codes (HS 8531) in their shipments, and at least 10 list Tyco's Spanish security unit among their own suppliers. Goods then go to Inditex's logistics centres in Spain.`)}
+        ${step(3, "Garment factories (tier 1)", `Factories cut, sew and finish the garments. These are the ${suppliers.length} vendors on the globe, in India and Vietnam. Their main fibers: ${fibers}.`)}
+        ${step(4, "Tagged and shipped to Spain", `Before shipping, factories attach Inditex's security and RFID tags. ${tagged} of the ${suppliers.length} vendors here declare security-tag codes (HS 8531) in their shipments, and at least 10 list Tyco's Spanish security unit among their own suppliers. Goods then go to Inditex's logistics centers in Spain.`)}
         ${step(5, "Sorted and sent to stores", `From the Spanish hubs, new stock reaches stores twice a week: within about 24 hours in Europe and up to 48 hours in the Americas and Asia.`)}
       </ol>
 
@@ -303,7 +303,7 @@
     if (!s) { box.hidden = true; return; }
     const d = s.details;
     const note = s.locationMissing
-      ? "No usable address on file. The marker sits at the country's centre."
+      ? "No usable address on file. The marker sits at the country's center."
       : s.uncertain
         ? `This record has ${s.addressCount.toLocaleString()} addresses, so it likely merges several companies with the same name. The location shown may not be the factory that supplies Inditex.`
         : "";

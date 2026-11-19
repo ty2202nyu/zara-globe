@@ -2,7 +2,7 @@
 """Turn data/suppliers_raw.json into data/suppliers.js for the globe page.
 
 For each supplier this adds:
-  materials  - fibres / raw materials inferred from the HS codes it ships
+  materials  - fibers / raw materials inferred from the HS codes it ships
   products   - product types inferred from the 4-digit HS headings
   uncertain  - True when the location can't be trusted (see README)
   lat/lng    - nudged slightly so suppliers in the same city don't overlap
@@ -42,46 +42,46 @@ PRODUCTS = {
     "6212": "Bras & lingerie", "6213": "Handkerchiefs", "6214": "Scarves & shawls", "6215": "Ties",
     "6217": "Clothing accessories", "6304": "Home furnishings", "6305": "Sacks & bags",
     "6405": "Footwear", "6505": "Hats", "6507": "Hat trims",
-    "7117": "Costume jewellery", "7317": "Nails & pins", "8308": "Hooks, eyes & buckles", "8309": "Metal closures",
+    "7117": "Costume jewelry", "7317": "Nails & pins", "8308": "Hooks, eyes & buckles", "8309": "Metal closures",
     "8513": "Lamps", "8523": "Data media", "8531": "Security tags / alarms", "8543": "Electronic devices",
     "9503": "Toys", "9606": "Buttons", "9607": "Zips",
 }
 EQUIPMENT_CHAPTERS = {"73", "84", "85"}  # used when a supplier ships nothing else
 
 # --- Materials --------------------------------------------------------------
-# Most garment headings use the 5th/6th digit for fibre. These tables cover the
+# Most garment headings use the 5th/6th digit for fiber. These tables cover the
 # codes that actually appear in the data.
-FIBRE_BY_HS6 = {
+FIBER_BY_HS6 = {
     # knitted (61)
-    "610130": "Synthetic", "610342": "Cotton", "610343": "Synthetic", "610349": "Other fibres",
-    "610442": "Cotton", "610443": "Synthetic", "610444": "Viscose / artificial", "610449": "Other fibres",
-    "610452": "Cotton", "610453": "Synthetic", "610459": "Other fibres",
-    "610462": "Cotton", "610463": "Synthetic", "610469": "Other fibres",
-    "610510": "Cotton", "610520": "Synthetic", "610590": "Other fibres",
+    "610130": "Synthetic", "610342": "Cotton", "610343": "Synthetic", "610349": "Other fibers",
+    "610442": "Cotton", "610443": "Synthetic", "610444": "Viscose / artificial", "610449": "Other fibers",
+    "610452": "Cotton", "610453": "Synthetic", "610459": "Other fibers",
+    "610462": "Cotton", "610463": "Synthetic", "610469": "Other fibers",
+    "610510": "Cotton", "610520": "Synthetic", "610590": "Other fibers",
     "610610": "Cotton", "610620": "Synthetic",
-    "610710": "Cotton", "610910": "Cotton", "610990": "Other fibres",
-    "611011": "Wool", "611020": "Cotton", "611030": "Synthetic", "611090": "Other fibres",
+    "610710": "Cotton", "610910": "Cotton", "610990": "Other fibers",
+    "611011": "Wool", "611020": "Cotton", "611030": "Synthetic", "611090": "Other fibers",
     "611120": "Cotton", "611130": "Synthetic",
-    "611420": "Cotton", "611430": "Synthetic", "611490": "Other fibres",
+    "611420": "Cotton", "611430": "Synthetic", "611490": "Other fibers",
     # woven (62)
     "620130": "Cotton", "620140": "Synthetic", "620230": "Cotton", "620240": "Synthetic",
-    "620290": "Other fibres",
-    "620332": "Cotton", "620333": "Synthetic", "620339": "Other fibres",
-    "620342": "Cotton", "620343": "Synthetic", "620349": "Other fibres",
-    "620422": "Cotton", "620432": "Cotton", "620433": "Synthetic", "620439": "Other fibres",
-    "620442": "Cotton", "620443": "Synthetic", "620444": "Viscose / artificial", "620449": "Other fibres",
-    "620452": "Cotton", "620453": "Synthetic", "620459": "Other fibres",
-    "620462": "Cotton", "620463": "Synthetic", "620469": "Other fibres",
-    "620520": "Cotton", "620530": "Synthetic", "620590": "Other fibres",
-    "620630": "Cotton", "620640": "Synthetic", "620690": "Other fibres",
-    "620721": "Cotton", "620821": "Cotton", "620822": "Synthetic", "620829": "Other fibres",
-    "620891": "Cotton", "620892": "Synthetic", "620899": "Other fibres",
-    "620920": "Cotton", "620930": "Synthetic", "620990": "Other fibres",
-    "621133": "Synthetic", "621142": "Cotton", "621143": "Synthetic", "621149": "Other fibres",
-    "621320": "Cotton", "621390": "Other fibres",
+    "620290": "Other fibers",
+    "620332": "Cotton", "620333": "Synthetic", "620339": "Other fibers",
+    "620342": "Cotton", "620343": "Synthetic", "620349": "Other fibers",
+    "620422": "Cotton", "620432": "Cotton", "620433": "Synthetic", "620439": "Other fibers",
+    "620442": "Cotton", "620443": "Synthetic", "620444": "Viscose / artificial", "620449": "Other fibers",
+    "620452": "Cotton", "620453": "Synthetic", "620459": "Other fibers",
+    "620462": "Cotton", "620463": "Synthetic", "620469": "Other fibers",
+    "620520": "Cotton", "620530": "Synthetic", "620590": "Other fibers",
+    "620630": "Cotton", "620640": "Synthetic", "620690": "Other fibers",
+    "620721": "Cotton", "620821": "Cotton", "620822": "Synthetic", "620829": "Other fibers",
+    "620891": "Cotton", "620892": "Synthetic", "620899": "Other fibers",
+    "620920": "Cotton", "620930": "Synthetic", "620990": "Other fibers",
+    "621133": "Synthetic", "621142": "Cotton", "621143": "Synthetic", "621149": "Other fibers",
+    "621320": "Cotton", "621390": "Other fibers",
     "621410": "Silk", "621420": "Wool", "621430": "Synthetic", "621440": "Viscose / artificial",
-    "621490": "Other fibres", "621520": "Synthetic",
-    "630492": "Cotton", "630491": "Other fibres", "630499": "Other fibres",
+    "621490": "Other fibers", "621520": "Synthetic",
+    "630492": "Cotton", "630491": "Other fibers", "630499": "Other fibers",
 }
 MATERIAL_BY_HEADING = {
     "4203": "Leather", "4205": "Leather", "4202": "Leather / textile / plastic",
@@ -98,7 +98,7 @@ def describe(hs_codes):
         heading, hs6 = code[:4], code[:6]
         if heading in PRODUCTS:
             products[PRODUCTS[heading]] += 1
-        material = FIBRE_BY_HS6.get(hs6) or MATERIAL_BY_HEADING.get(heading)
+        material = FIBER_BY_HS6.get(hs6) or MATERIAL_BY_HEADING.get(heading)
         if material:
             materials[material] += 1
     if not products and {c[:2] for c in hs_codes} & EQUIPMENT_CHAPTERS:

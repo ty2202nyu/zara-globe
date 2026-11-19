@@ -57,18 +57,18 @@ SUPPLY_BY_HEADING = {
     "5309": "Linen fabric", "5311": "Linen fabric",
     "5407": "Synthetic fabric", "5512": "Synthetic fabric", "5513": "Synthetic fabric", "5514": "Synthetic fabric",
     "5515": "Synthetic fabric", "5516": "Viscose fabric", "5408": "Viscose fabric",
-    "5501": "Fibre & yarn", "5502": "Fibre & yarn", "5503": "Fibre & yarn", "5506": "Fibre & yarn",
-    "5509": "Fibre & yarn", "5510": "Fibre & yarn",
+    "5501": "Fiber & yarn", "5502": "Fiber & yarn", "5503": "Fiber & yarn", "5506": "Fiber & yarn",
+    "5509": "Fiber & yarn", "5510": "Fiber & yarn",
     "6001": "Knit fabric", "6002": "Knit fabric", "6003": "Knit fabric", "6004": "Knit fabric",
     "6005": "Knit fabric", "6006": "Knit fabric",
     "5601": "Padding & wadding", "5602": "Felt", "5603": "Nonwovens", "5604": "Elastic & cord",
     "5607": "Cord & twine", "5609": "Cord & twine",
     "5801": "Velvet & corduroy", "5804": "Lace", "5806": "Ribbons & tape", "5807": "Woven labels",
     "5808": "Braids & trims", "5810": "Embroidery", "5811": "Quilted fabric",
-    "5903": "Coated fabric & interlining", "5902": "Tyre cord", "5907": "Coated fabric & interlining",
+    "5903": "Coated fabric & interlining", "5902": "Tire cord", "5907": "Coated fabric & interlining",
     "4821": "Labels & tags", "4819": "Packaging", "4820": "Stationery", "4911": "Printed matter",
     "3923": "Plastic packaging", "3926": "Plastic trims & hangers", "3919": "Adhesive labels",
-    "9606": "Buttons", "9607": "Zips", "8308": "Buckles, hooks & eyelets", "7117": "Costume jewellery",
+    "9606": "Buttons", "9607": "Zips", "8308": "Buckles, hooks & eyelets", "7117": "Costume jewelry",
     "8531": "Security tags", "8523": "RFID & data tags", "9618": "Mannequins",
     "8445": "Textile machinery", "8446": "Textile machinery", "8447": "Textile machinery",
     "8448": "Textile machinery parts", "8451": "Textile machinery", "8452": "Sewing machines",
@@ -258,7 +258,7 @@ NOT_PRODUCTS = {"Security tags / alarms", "Labels & tags", "Plastic trims & acce
 def summary(s, role, buyers_total, others):
     goods = [p.lower() for p in s["products"] if p not in NOT_PRODUCTS][:3] or ["goods"]
     what = ", ".join(goods[:-1]) + " and " + goods[-1] if len(goods) > 1 else goods[0]
-    fibres = [m.lower() for m in s["materials"] if m not in ("Plastic", "Paper", "Base metal")][:2]
+    fibers = [m.lower() for m in s["materials"] if m not in ("Plastic", "Paper", "Base metal")][:2]
     city = s["place"].split(" (")[0].split(",")[-1].strip()
     if role == "Fashion retailer":
         text = f"Fashion retailer in {city} that buys stock from Inditex to sell in its own region."
@@ -266,7 +266,7 @@ def summary(s, role, buyers_total, others):
         text = f"Robotics company in {city} supplying warehouse sorting robots and equipment to Inditex."
     else:
         text = f"{role or 'Supplier'} in {city} shipping {what} to Inditex"
-        text += f", mostly {' and '.join(fibres)}." if fibres else "."
+        text += f", mostly {' and '.join(fibers)}." if fibers else "."
     if buyers_total > 1:
         text += f" Trades with {buyers_total:,} buyers on record"
         text += f", including {' and '.join(others[:2])}." if others else "."

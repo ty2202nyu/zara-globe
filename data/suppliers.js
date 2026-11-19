@@ -43,7 +43,7 @@ window.SUPPLY_DATA = {
    "materials": [
     "Cotton",
     "Synthetic",
-    "Other fibres",
+    "Other fibers",
     "Viscose / artificial",
     "Leather / textile / plastic",
     "Paper"
@@ -243,7 +243,7 @@ window.SUPPLY_DATA = {
    "materials": [
     "Cotton",
     "Synthetic",
-    "Other fibres",
+    "Other fibers",
     "Base metal",
     "Plastic",
     "Paper",
@@ -371,7 +371,7 @@ window.SUPPLY_DATA = {
       "supplies": [
        "Labels & tags",
        "Woven labels",
-       "Costume jewellery"
+       "Costume jewelry"
       ],
       "country": "IT"
      },
@@ -459,7 +459,7 @@ window.SUPPLY_DATA = {
    ],
    "materials": [
     "Cotton",
-    "Other fibres",
+    "Other fibers",
     "Synthetic",
     "Plastic",
     "Viscose / artificial"
@@ -605,7 +605,7 @@ window.SUPPLY_DATA = {
      }
     ],
     "flags": [],
-    "summary": "Clothing wholesaler in Noida shipping dresses, skirts & trousers, suits & trousers and shirts to Inditex, mostly cotton and other fibres. Trades with 53 buyers on record, including Ekkia Sas."
+    "summary": "Clothing wholesaler in Noida shipping dresses, skirts & trousers, suits & trousers and shirts to Inditex, mostly cotton and other fibers. Trades with 53 buyers on record, including Ekkia Sas."
    }
   },
   {
@@ -632,7 +632,7 @@ window.SUPPLY_DATA = {
    "materials": [
     "Cotton",
     "Synthetic",
-    "Other fibres",
+    "Other fibers",
     "Plastic",
     "Viscose / artificial"
    ],
@@ -779,7 +779,7 @@ window.SUPPLY_DATA = {
    "materials": [
     "Synthetic",
     "Cotton",
-    "Other fibres",
+    "Other fibers",
     "Viscose / artificial"
    ],
    "hsCount": 27,
@@ -914,7 +914,7 @@ window.SUPPLY_DATA = {
    ],
    "materials": [
     "Cotton",
-    "Other fibres",
+    "Other fibers",
     "Synthetic"
    ],
    "hsCount": 18,
@@ -1021,7 +1021,7 @@ window.SUPPLY_DATA = {
      }
     ],
     "flags": [],
-    "summary": "Garment maker in Greater Noida shipping dresses, skirts & trousers, blouses and babywear to Inditex, mostly cotton and other fibres. Trades with 158 buyers on record, including Cleo Holdings L.L.C and Sea New York, Inc."
+    "summary": "Garment maker in Greater Noida shipping dresses, skirts & trousers, blouses and babywear to Inditex, mostly cotton and other fibers. Trades with 158 buyers on record, including Cleo Holdings L.L.C and Sea New York, Inc."
    }
   },
   {
@@ -1042,7 +1042,7 @@ window.SUPPLY_DATA = {
     "Electronic devices"
    ],
    "materials": [
-    "Other fibres",
+    "Other fibers",
     "Cotton",
     "Synthetic",
     "Viscose / artificial"
@@ -1147,7 +1147,7 @@ window.SUPPLY_DATA = {
       "text": "This record has 48 different names on file, and some look like different businesses, so it may merge several companies. Buyers and suppliers below may not all belong to the company that supplies Inditex."
      }
     ],
-    "summary": "Supplier in Gujarat shipping dresses, skirts & trousers, blouses and tracksuits & other garments to Inditex, mostly other fibres and cotton. Trades with 913 buyers on record, including 6, LLC and Kmart Australia Ltd."
+    "summary": "Supplier in Gujarat shipping dresses, skirts & trousers, blouses and tracksuits & other garments to Inditex, mostly other fibers and cotton. Trades with 913 buyers on record, including 6, LLC and Kmart Australia Ltd."
    }
   },
   {
@@ -1169,7 +1169,7 @@ window.SUPPLY_DATA = {
     "Cotton",
     "Plastic",
     "Synthetic",
-    "Other fibres"
+    "Other fibers"
    ],
    "hsCount": 6,
    "hs": [
@@ -1340,7 +1340,7 @@ window.SUPPLY_DATA = {
    "materials": [
     "Cotton",
     "Synthetic",
-    "Other fibres",
+    "Other fibers",
     "Viscose / artificial"
    ],
    "hsCount": 12,
@@ -1449,7 +1449,7 @@ window.SUPPLY_DATA = {
    ],
    "materials": [
     "Cotton",
-    "Other fibres",
+    "Other fibers",
     "Synthetic",
     "Viscose / artificial",
     "Plastic"
@@ -1519,7 +1519,7 @@ window.SUPPLY_DATA = {
       "name": "Druckerei Mantow GmbH",
       "supplies": [
        "Labels & tags",
-       "Fibre & yarn"
+       "Fiber & yarn"
       ],
       "country": "DE"
      },
@@ -1555,7 +1555,7 @@ window.SUPPLY_DATA = {
      }
     ],
     "flags": [],
-    "summary": "Textile mill in Mumbai shipping dresses, skirts & trousers, shirts and blouses to Inditex, mostly cotton and other fibres. Trades with 311 buyers on record, including Bestseller A/S and H & M Hennes & Mauritz Gbc AB."
+    "summary": "Textile mill in Mumbai shipping dresses, skirts & trousers, shirts and blouses to Inditex, mostly cotton and other fibers. Trades with 311 buyers on record, including Bestseller A/S and H & M Hennes & Mauritz Gbc AB."
    }
   },
   {
@@ -1821,7 +1821,7 @@ window.SUPPLY_DATA = {
     "Synthetic",
     "Leather / textile / plastic",
     "Silk",
-    "Other fibres"
+    "Other fibers"
    ],
    "hsCount": 11,
    "hs": [
@@ -2094,7 +2094,7 @@ window.SUPPLY_DATA = {
     "Scarves & shawls"
    ],
    "materials": [
-    "Other fibres",
+    "Other fibers",
     "Cotton",
     "Synthetic"
    ],
@@ -2149,7 +2149,7 @@ window.SUPPLY_DATA = {
      {
       "name": "Toray International (China) Co., Ltd",
       "supplies": [
-       "Fibre & yarn"
+       "Fiber & yarn"
       ],
       "country": "CN"
      },
@@ -2169,7 +2169,7 @@ window.SUPPLY_DATA = {
      }
     ],
     "flags": [],
-    "summary": "Garment maker in New Delhi shipping tracksuits & other garments, handkerchiefs and scarves & shawls to Inditex, mostly other fibres and cotton. Trades with 213 buyers on record, including Inoui Et Compagnie and Fashion 1 GmbH."
+    "summary": "Garment maker in New Delhi shipping tracksuits & other garments, handkerchiefs and scarves & shawls to Inditex, mostly other fibers and cotton. Trades with 213 buyers on record, including Inoui Et Compagnie and Fashion 1 GmbH."
    }
   },
   {
@@ -2379,7 +2379,7 @@ window.SUPPLY_DATA = {
    "materials": [
     "Leather / textile / plastic",
     "Cotton",
-    "Other fibres"
+    "Other fibers"
    ],
    "hsCount": 6,
    "hs": [
@@ -2653,7 +2653,7 @@ window.SUPPLY_DATA = {
    ],
    "materials": [
     "Cotton",
-    "Other fibres",
+    "Other fibers",
     "Synthetic",
     "Viscose / artificial"
    ],
@@ -2731,7 +2731,7 @@ window.SUPPLY_DATA = {
      }
     ],
     "flags": [],
-    "summary": "Textile mill in Bihar shipping dresses, skirts & trousers, tracksuits & other garments and home furnishings to Inditex, mostly cotton and other fibres. Trades with 166 buyers on record, including Kiabi Logistique and El Corte Ingles SA."
+    "summary": "Textile mill in Bihar shipping dresses, skirts & trousers, tracksuits & other garments and home furnishings to Inditex, mostly cotton and other fibers. Trades with 166 buyers on record, including Kiabi Logistique and El Corte Ingles SA."
    }
   },
   {
@@ -2748,7 +2748,7 @@ window.SUPPLY_DATA = {
     "Shirts"
    ],
    "materials": [
-    "Other fibres",
+    "Other fibers",
     "Cotton"
    ],
    "hsCount": 2,
@@ -2803,7 +2803,7 @@ window.SUPPLY_DATA = {
      }
     ],
     "flags": [],
-    "summary": "Clothing exporter in New Delhi shipping suits & trousers and shirts to Inditex, mostly other fibres and cotton. Trades with 28 buyers on record, including Myer Pty Ltd and Coles Group Ltd."
+    "summary": "Clothing exporter in New Delhi shipping suits & trousers and shirts to Inditex, mostly other fibers and cotton. Trades with 28 buyers on record, including Myer Pty Ltd and Coles Group Ltd."
    }
   },
   {
@@ -2916,7 +2916,7 @@ window.SUPPLY_DATA = {
     "Hats"
    ],
    "materials": [
-    "Other fibres",
+    "Other fibers",
     "Wool"
    ],
    "hsCount": 6,
@@ -2964,7 +2964,7 @@ window.SUPPLY_DATA = {
       "name": "Druckerei Mantow GmbH",
       "supplies": [
        "Labels & tags",
-       "Fibre & yarn"
+       "Fiber & yarn"
       ],
       "country": "DE"
      },
@@ -2977,7 +2977,7 @@ window.SUPPLY_DATA = {
      }
     ],
     "flags": [],
-    "summary": "Garment maker in Gurugram shipping scarves & shawls, coats & jackets and hats to Inditex, mostly other fibres and wool. Trades with 518 buyers on record, including Premium Brands Opco LLC and HUGO BOSS Ticino SA."
+    "summary": "Garment maker in Gurugram shipping scarves & shawls, coats & jackets and hats to Inditex, mostly other fibers and wool. Trades with 518 buyers on record, including Premium Brands Opco LLC and HUGO BOSS Ticino SA."
    }
   },
   {
@@ -3261,14 +3261,14 @@ window.SUPPLY_DATA = {
       "name": "Brotex (Vietnam) Co. Ltd",
       "supplies": [
        "Cotton yarn",
-       "Fibre & yarn"
+       "Fiber & yarn"
       ],
       "country": "VN"
      },
      {
       "name": "Fame Bros. Ltd",
       "supplies": [
-       "Costume jewellery"
+       "Costume jewelry"
       ],
       "country": null
      },
@@ -3390,7 +3390,7 @@ window.SUPPLY_DATA = {
    "score": 700,
    "level": "Low",
    "products": [
-    "Costume jewellery"
+    "Costume jewelry"
    ],
    "materials": [
     "Base metal"
@@ -3454,7 +3454,7 @@ window.SUPPLY_DATA = {
      }
     ],
     "flags": [],
-    "summary": "Textile products maker in Noida shipping costume jewellery to Inditex. Trades with 154 buyers on record, including Chutti Pty Ltd and Fantasia World."
+    "summary": "Textile products maker in Noida shipping costume jewelry to Inditex. Trades with 154 buyers on record, including Chutti Pty Ltd and Fantasia World."
    }
   },
   {
@@ -3472,7 +3472,7 @@ window.SUPPLY_DATA = {
     "Security tags / alarms"
    ],
    "materials": [
-    "Other fibres",
+    "Other fibers",
     "Cotton"
    ],
    "hsCount": 3,
@@ -3535,7 +3535,7 @@ window.SUPPLY_DATA = {
      }
     ],
     "flags": [],
-    "summary": "Garment maker in New Delhi shipping dresses, skirts & trousers and other garments to Inditex, mostly other fibres and cotton. Trades with 159 buyers on record, including Lucky Opco LLC and Urban Outfitters Wholesale, Inc."
+    "summary": "Garment maker in New Delhi shipping dresses, skirts & trousers and other garments to Inditex, mostly other fibers and cotton. Trades with 159 buyers on record, including Lucky Opco LLC and Urban Outfitters Wholesale, Inc."
    }
   },
   {
@@ -3644,7 +3644,7 @@ window.SUPPLY_DATA = {
     "Security tags / alarms"
    ],
    "materials": [
-    "Other fibres",
+    "Other fibers",
     "Cotton"
    ],
    "hsCount": 3,
@@ -3695,7 +3695,7 @@ window.SUPPLY_DATA = {
      }
     ],
     "flags": [],
-    "summary": "Garment maker in Faridabad shipping sweaters & cardigans and other garments to Inditex, mostly other fibres and cotton. Trades with 174 buyers on record, including Banana Republic, LLC and Old Navy LLC."
+    "summary": "Garment maker in Faridabad shipping sweaters & cardigans and other garments to Inditex, mostly other fibers and cotton. Trades with 174 buyers on record, including Banana Republic, LLC and Old Navy LLC."
    }
   },
   {
@@ -3883,7 +3883,7 @@ window.SUPPLY_DATA = {
    ],
    "materials": [
     "Cotton",
-    "Other fibres"
+    "Other fibers"
    ],
    "hsCount": 6,
    "hs": [
@@ -3969,7 +3969,7 @@ window.SUPPLY_DATA = {
       "text": "This record has 21 different names on file, and some look like different businesses, so it may merge several companies. Buyers and suppliers below may not all belong to the company that supplies Inditex."
      }
     ],
-    "summary": "Supplier in Paschim Midnapore shipping dresses, skirts & trousers and tracksuits & other garments to Inditex, mostly cotton and other fibres. Trades with 283 buyers on record, including Landmark Arabia Company and Rna Resources Group Ltd."
+    "summary": "Supplier in Paschim Midnapore shipping dresses, skirts & trousers and tracksuits & other garments to Inditex, mostly cotton and other fibers. Trades with 283 buyers on record, including Landmark Arabia Company and Rna Resources Group Ltd."
    }
   },
   {
@@ -4174,7 +4174,7 @@ window.SUPPLY_DATA = {
    "score": 737,
    "level": "Low",
    "products": [
-    "Costume jewellery"
+    "Costume jewelry"
    ],
    "materials": [
     "Base metal"
@@ -4206,7 +4206,7 @@ window.SUPPLY_DATA = {
     "tier2Total": 0,
     "tier2": [],
     "flags": [],
-    "summary": "Textile mill in Noida shipping costume jewellery to Inditex. Trades with 78 buyers on record, including El Corte Ingles SA and Nicoli Network SL."
+    "summary": "Textile mill in Noida shipping costume jewelry to Inditex. Trades with 78 buyers on record, including El Corte Ingles SA and Nicoli Network SL."
    }
   },
   {
@@ -4224,7 +4224,7 @@ window.SUPPLY_DATA = {
    ],
    "materials": [
     "Cotton",
-    "Other fibres"
+    "Other fibers"
    ],
    "hsCount": 3,
    "hs": [
@@ -4284,7 +4284,7 @@ window.SUPPLY_DATA = {
      }
     ],
     "flags": [],
-    "summary": "Textile mill in Tiruppur shipping t-shirts & vests and suits & trousers to Inditex, mostly cotton and other fibres. Trades with 19 buyers on record, including Societe D Investissement Et de Pro and Fashion Asia Ltd."
+    "summary": "Textile mill in Tiruppur shipping t-shirts & vests and suits & trousers to Inditex, mostly cotton and other fibers. Trades with 19 buyers on record, including Societe D Investissement Et de Pro and Fashion Asia Ltd."
    }
   },
   {
@@ -4719,7 +4719,7 @@ window.SUPPLY_DATA = {
    ],
    "materials": [
     "Cotton",
-    "Other fibres"
+    "Other fibers"
    ],
    "hsCount": 2,
    "hs": [
@@ -4779,7 +4779,7 @@ window.SUPPLY_DATA = {
      }
     ],
     "flags": [],
-    "summary": "Garment maker in Noida shipping tracksuits & other garments to Inditex, mostly cotton and other fibres. Trades with 566 buyers on record, including Last Brand Inc and Belk International Inc."
+    "summary": "Garment maker in Noida shipping tracksuits & other garments to Inditex, mostly cotton and other fibers. Trades with 566 buyers on record, including Last Brand Inc and Belk International Inc."
    }
   },
   {
@@ -5084,7 +5084,7 @@ window.SUPPLY_DATA = {
       "name": "Nantong Xuanfei International Trading Co Ltd",
       "supplies": [
        "Cotton yarn",
-       "Fibre & yarn"
+       "Fiber & yarn"
       ],
       "country": "CN"
      },
