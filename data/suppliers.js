@@ -115,8 +115,7 @@ window.SUPPLY_DATA = {
    "details": {
     "legalName": "Sonu Exim Pvt Ltd",
     "aliases": [
-     "Sonu Exim",
-     "Sonu Exim Pvt Ltd"
+     "Sonu Exim"
     ],
     "aliasCount": 3,
     "industry": "Cut and Sew Apparel Manufacturing (except Contractors)",
@@ -676,9 +675,7 @@ window.SUPPLY_DATA = {
    "locationMissing": false,
    "details": {
     "legalName": "Vamani Overseas Pvt Ltd",
-    "aliases": [
-     "Vamani Overseas Pvt Ltd"
-    ],
+    "aliases": [],
     "aliasCount": 2,
     "industry": null,
     "legalForm": "Company limited by Shares",
@@ -1274,7 +1271,6 @@ window.SUPPLY_DATA = {
     "legalName": "Bhartiya Enterprises",
     "aliases": [
      "Bhartiya International Ltd",
-     "Bhartiya International Sez Ltd",
      "Bhartiya Urban Pvt Ltd"
     ],
     "aliasCount": 15,

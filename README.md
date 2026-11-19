@@ -8,6 +8,13 @@ Each supplier is a coloured column on the globe, with an animated arc to Inditex
 - the materials it ships (cotton, synthetic, viscose, leather, wool, silk…)
 - the product types (dresses, coats, handbags, costume jewellery…)
 - the raw HS customs codes behind those labels
+- a one-line summary of the company
+- **the company:** registered name, other names, industry, company type, registration number and global ID (LEI)
+- **who else it sells to:** how many buyers it has on record, and some of the other brands
+- **where its materials come from:** its own suppliers (fabric mills, label and button makers), with gold lines on the globe from their countries
+- warnings when the record looks unreliable, for example a company listed under an unrelated industry
+
+Click the **Inditex HQ** column in Spain, or **About Inditex and its supply chain**, for an overview of the company and how materials travel from fibre to store.
 
 You can filter by country, filter by material, search, and hide suppliers whose location is uncertain.
 
@@ -31,23 +38,26 @@ Opening `index.html` directly from disk also works in most browsers. You need an
 ```
 index.html               page structure
 styles.css               styling (desktop side panel, phone bottom sheet)
-app.js                   globe + panel logic (globe.gl 2.27.2)
+app.js                   globe + panel logic (globe.gl 2.27.2), including the Inditex overview
 data/suppliers_raw.json  supplier data from Tradeverifyd, plus hand-added coordinates
+data/details_raw.jsonl   company details, top buyers and top suppliers for each vendor
 data/suppliers.js        generated: what the page actually loads
 scripts/build_data.py    turns raw data into suppliers.js
+scripts/details.py       turns details_raw.jsonl into the panel's company sections
 ```
 
-After you edit `data/suppliers_raw.json`, run `python3 scripts/build_data.py` to regenerate `data/suppliers.js`.
+After you edit `data/suppliers_raw.json` or `data/details_raw.jsonl`, run `python3 scripts/build_data.py` to regenerate `data/suppliers.js`.
 
 ## Where the data comes from
 
 All supplier, score and address data comes from **Tradeverifyd**, pulled through its MCP connector on 2026-11-19:
 
 1. **Buyer:** `Industria de Diseño Textil SA` (Inditex, Zara's parent), entity `c339c0e0-5a87-4eb6-914f-c382e529b723`.
-2. **Suppliers:** its inbound trade relationships (58 records). One internal Inditex entity ("Zara Mexico Contrato…") was dropped, leaving **57 vendors** (41 in India, 16 in Vietnam).
+2. **Suppliers:** its inbound trade relationships (58 records). One internal Inditex entity ("Zara Mexico Contrato…") was dropped, leaving **57 vendors** (43 in India, 14 in Vietnam).
 3. **Scores:** `entity_score` for each vendor. Scores range from **700 to 737**, and every vendor is rated **Low** risk.
 4. **Locations:** the first address on file from `entity_addresses`, geocoded by hand to approximate city-level coordinates.
-5. **Materials and products:** inferred from the HS codes on each trade relationship (see `scripts/build_data.py`). For garments, the 6-digit HS subheading encodes the fibre (for example, `620442` means women's dresses of cotton).
+5. **Company details:** `entity_details` (names, industry, IDs) and `entity_trade_relationships` in both directions: the first few buyers and suppliers, plus their totals. Only the top few of each are stored. Supplier countries are guessed from company names (for example "Shanghai…" or "…(HK) Ltd"), and left blank when unclear.
+6. **Materials and products:** inferred from the HS codes on each trade relationship (see `scripts/build_data.py`). For garments, the 6-digit HS subheading encodes the fibre (for example, `620442` means women's dresses of cotton).
 
 ### Caveats
 
@@ -56,6 +66,8 @@ All supplier, score and address data comes from **Tradeverifyd**, pulled through
   - 7 have no usable address and are placed at the centre of their country.
 - **Colour shows relative score only.** The colour scale stretches across 700–737 so you can see differences, but Tradeverifyd rates all of them Low risk.
 - **This is a partial view.** These are only the suppliers in Tradeverifyd's trade records for this one Inditex entity. Inditex publishes a much larger supplier list (thousands of factories, including Bangladesh, Turkey, Morocco, China and others), and those aren't included here.
+- **Some records merge different companies.** Tradeverifyd sometimes groups unrelated firms with similar names into one record. For example, "Paramount Limited" is listed as a surgical-instrument maker. The panel flags records whose industry doesn't match clothing, or that carry 20+ names.
+- **Two vendors aren't factories.** Mitra Adiperkasa Vietnam is a retailer that buys from Inditex, and Unbox Robotics supplies warehouse robots.
 - **No sanctions or forced-labour check yet.** The data doesn't include annotations such as sanctions or forced-labour flags. Tradeverifyd's `entity_annotations` tool could add them.
 
 ## Updating the data

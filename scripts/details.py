@@ -232,7 +232,8 @@ def build(row, supplier):
 
     return {
         "legalName": tidy(row["legal_name"]),
-        "aliases": [tidy(a) for a in row.get("aliases", [])][:4],
+        "aliases": [a for a in dedupe([tidy(a) for a in row.get("aliases", [])])
+                    if a.lower() != tidy(row["legal_name"]).lower()][:4],
         "aliasCount": alias_count,
         "industry": row.get("industry"),
         "legalForm": row.get("legal_form"),

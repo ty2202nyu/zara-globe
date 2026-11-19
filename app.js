@@ -70,12 +70,12 @@
     .atmosphereAltitude(0.18)
     // supplier columns
     .pointLat("lat").pointLng("lng")
-    .pointAltitude((s) => 0.02 + 0.08 * ((s.score - minScore) / Math.max(1, maxScore - minScore)))
-    .pointRadius((s) => (s === state.selected ? 0.32 : 0.18))
-    .pointColor((s) => scoreColor(s.score, s.uncertain ? 0.45 : 0.95))
+    .pointAltitude((s) => (s.hq ? 0.14 : 0.02 + 0.08 * ((s.score - minScore) / Math.max(1, maxScore - minScore))))
+    .pointRadius((s) => (s.hq ? 0.55 : s === state.selected ? 0.32 : 0.18))
+    .pointColor((s) => (s.hq ? "#e9d8b4" : scoreColor(s.score, s.uncertain ? 0.45 : 0.95)))
     .pointsMerge(false)
     .onPointHover(onHover)
-    .onPointClick((s) => select(s))
+    .onPointClick((s) => (s.hq ? openOverview() : select(s)))
     // shipments to HQ, plus the selected supplier's own suppliers (tier 2)
     .arcStartLat("sLat").arcStartLng("sLng").arcEndLat("eLat").arcEndLng("eLng")
     .arcColor((a) => a.tier2
@@ -98,6 +98,7 @@
     .onLabelClick((l) => l.hq && openOverview())
     .onLabelHover((l) => { document.body.style.cursor = l && l.hq ? "pointer" : ""; });
   const HQ_LABEL = { lat: buyer.lat, lng: buyer.lng, text: "Inditex HQ · Arteixo", hq: true };
+  const HQ_POINT = { lat: buyer.lat, lng: buyer.lng, hq: true };
 
   globe.controls().autoRotate = true;
   globe.controls().autoRotateSpeed = 0.35;
@@ -119,6 +120,11 @@
   function onHover(s) {
     document.body.style.cursor = s ? "pointer" : "";
     if (!s) { tooltip.hidden = true; return; }
+    if (s.hq) {
+      tooltip.innerHTML = "<b>Inditex HQ</b>Arteixo, Spain<br>Click for an overview of Inditex and its supply chain";
+      tooltip.hidden = false;
+      return placeTooltip();
+    }
     tooltip.innerHTML = `<b>${esc(s.name)}</b>${esc(s.place)}<br>Score ${s.score} · ${esc(s.level)} risk<br>${esc(s.materials.slice(0, 3).join(", ") || s.products[0] || "")}`;
     tooltip.hidden = false;
     placeTooltip();
@@ -331,7 +337,7 @@
     const tier2 = sel && sel.details ? sel.details.tier2.filter((t) => COUNTRY_POINTS[t.country]) : [];
     const tier2Countries = [...new Set(tier2.map((t) => t.country))];
     globe
-      .pointsData(list)
+      .pointsData([...list, HQ_POINT])
       .arcsData([
         ...list.filter((s) => !s.locationMissing)
           .map((s) => ({ from: s, sLat: s.lat, sLng: s.lng, eLat: buyer.lat, eLng: buyer.lng })),
