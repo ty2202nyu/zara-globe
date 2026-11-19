@@ -11,6 +11,8 @@ Each supplier is a coloured column on the globe, with an animated arc to Inditex
 
 You can filter by country, filter by material, search, and hide suppliers whose location is uncertain.
 
+**Live site:** <https://ty2202nyu.github.io/zara-globe/>
+
 ## Run it
 
 No build tools or install needed. Serve the folder with any static server:
