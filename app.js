@@ -292,7 +292,7 @@
     globe.controls().autoRotate = false;
     globe.pointOfView({ lat: 35, lng: 30, altitude: 2.4 }, 1200);
     render();
-    $("detail").scrollIntoView({ behavior: "smooth", block: "nearest" });
+    $("detail").scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
   function renderDetail() {
