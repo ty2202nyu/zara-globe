@@ -96,9 +96,16 @@
     .labelSize((l) => (l.hq ? 0.9 : 0.6)).labelDotRadius((l) => (l.hq ? 0.5 : 0.3))
     .labelColor((l) => (l.hq ? "#e9d8b4" : `rgba(${TIER2},0.85)`)).labelResolution(2)
     .onLabelClick((l) => l.hq && openOverview())
+    // Lines converge on HQ, so a click there often lands on a line or the globe
+    // surface instead of the HQ column. Treat any click close to HQ as HQ.
+    .onArcClick((a, e, c) => (nearHQ(c) ? openOverview() : a.from ? select(a.from) : null))
+    .onGlobeClick((c) => nearHQ(c) && openOverview())
     .onLabelHover((l) => { document.body.style.cursor = l && l.hq ? "pointer" : ""; });
   const HQ_LABEL = { lat: buyer.lat, lng: buyer.lng, text: "Inditex HQ · Arteixo", hq: true };
   const HQ_POINT = { lat: buyer.lat, lng: buyer.lng, hq: true };
+  function nearHQ(c) {
+    return !!c && Math.abs(c.lat - buyer.lat) < 2.5 && Math.abs(c.lng - buyer.lng) < 3;
+  }
 
   globe.controls().autoRotate = true;
   globe.controls().autoRotateSpeed = 0.35;
